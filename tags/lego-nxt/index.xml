@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lego NXT on Anthony I. Joseph</title>
+    <link>http://example.com/tags/lego-nxt/</link>
+    <description>Recent content in Lego NXT on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Thu, 01 Jan 2015 06:56:47 +0000</lastBuildDate><atom:link href="http://example.com/tags/lego-nxt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing LeJOS for Mindstorms NXT on Windows 8</title>
+      <link>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</link>
+      <pubDate>Thu, 01 Jan 2015 06:56:47 +0000</pubDate>
+      
+      <guid>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</guid>
+      <description>So I had to deviate a little from the installation instructions to get LeJOS working on Windows 8, especially on a 64 bit operating system:
+ Install a 32-bit version (ie x86) of Java JDK from the Oracle website:  http://www.oracle.com/technetwork/java/javase/downloads/index.html   Install the RobotC NXT drivers from the RobotC site, more than likely the 64bit version:  http://www.robotc.net/download/lego/   Install the latest LeJOS .exe version of the setup program from Sourceforge and the JDK and the drivers should be detected automatically!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOS on Anthony I. Joseph</title>
+    <link>http://example.com/tags/ios/</link>
+    <description>Recent content in iOS on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Thu, 02 Jan 2014 11:06:50 +0000</lastBuildDate><atom:link href="http://example.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stopping iPhone/iPad (iOS) messages from repeatedly alerting you to new messages</title>
+      <link>http://example.com/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</link>
+      <pubDate>Thu, 02 Jan 2014 11:06:50 +0000</pubDate>
+      
+      <guid>http://example.com/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</guid>
+      <description>So a big pain for me in iOS was how whenever I&amp;rsquo;d get a text message/iMessage it will keep on beeping at me&amp;hellip;. Well I found a way to stop this from happening by turning off &amp;ldquo;Repeat Alerts&amp;rdquo; in the Notification Settings for Messages app.
+How do you get there?
+ Go to the Settings App. Select &amp;ldquo;Notification Centre&amp;rdquo;. Select &amp;ldquo;Messages&amp;rdquo;. Scroll down until you see &amp;ldquo;Repeat Alerts&amp;rdquo;.  Here&amp;rsquo;s a screen shot to show where it is :-).</description>
+    </item>
+    
+    <item>
+      <title>Can&#39;t use touch screen on iPhone 4S with iOS 7?</title>
+      <link>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</link>
+      <pubDate>Mon, 07 Oct 2013 20:38:37 +0000</pubDate>
+      
+      <guid>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</guid>
+      <description>When is the worst time to lose access to your touch screen on your iPhone? That&amp;rsquo;s right, when you&amp;rsquo;re getting that important phone call, text message or want to take a photo of something&amp;hellip;
+Anyways, a soft reset (press and hold the home and lock buttons for about 5-10 seconds) and it was back to normal :-)!</description>
+    </item>
+    
+    <item>
+      <title>Improving iOS 7 performance on iPhone 4S</title>
+      <link>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</link>
+      <pubDate>Wed, 25 Sep 2013 06:32:35 +0000</pubDate>
+      
+      <guid>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</guid>
+      <description>So I have more adventure in getting iOS 7 on my iPhone 4S: I found that when I would unlock my phone or browse the home screen the user interface would have some lag and be slow to respond.
+I think it&amp;rsquo;s because of the new wallpaper settings that move when you tilt the phone&amp;hellip; (and it changed my wallpapers that didn&amp;rsquo;t fit my screen&amp;rsquo;s resolution like it did in iOS 6.</description>
+    </item>
+    
+    <item>
+      <title>Problems syncing music in iOS 7.0</title>
+      <link>http://example.com/posts/problems-syncing-music-in-ios-7-0/</link>
+      <pubDate>Fri, 20 Sep 2013 07:55:02 +0000</pubDate>
+      
+      <guid>http://example.com/posts/problems-syncing-music-in-ios-7-0/</guid>
+      <description>Being a little too eager, I upgraded my iPhone to the latest iOS 7 version&amp;hellip;. but had issues trying to sync my music collection&amp;hellip;. basically I would sync my music and somewhere into the process it would stop unexpectedly, saying &amp;ldquo;Cancelling sync&amp;rdquo;.
+I found that I had some songs had text in the comments field and characters like &amp;ldquo;「&amp;rdquo; and &amp;ldquo;」&amp;rdquo; - after removing them all my songs synchronised perfectly!</description>
+    </item>
+    
+  </channel>
+</rss>

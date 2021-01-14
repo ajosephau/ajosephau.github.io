@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Converting ESRI Shapefiles to CSVs using QGIS</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://example.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/php.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Converting ESRI Shapefiles to CSVs using QGIS</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                                <li><a href="/portfolio/">Portfolio</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:ajosephau@fastmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/ajosephau/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ajosephau/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/anthony-joseph/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/3427641/anthony-joseph"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Converting ESRI Shapefiles to CSVs using QGIS</h2>
+        <h5></h5>
+        
+<a href="http://example.com/tags/programming"><kbd class="item-tag">Programming</kbd></a>
+
+<a href="http://example.com/tags/qgis"><kbd class="item-tag">QGIS</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>So I&rsquo;ve been trying to export the data from the AMSA (the digital data from https://www.operations.amsa.gov.au/Spatial/DataServices/DigitalData which contains about 1 million data points per month). And I found a way to export the shapefile&rsquo;s data to a CSV file :D!</p>
+<ol>
+<li>Install QGIS from Kyngchaos for Mac users!! http://www.kyngchaos.com/software/qgis</li>
+<li>Drag the &ldquo;.shp&rdquo; and drop it into the &ldquo;Layers&rdquo; panel on the left hand panel</li>
+<li>Click on the layer and then on the menu item, and select Layers &ndash;&gt; Save As</li>
+<li>Select &ldquo;Comma Separated Values&rdquo;, and select a file to save to. It might probably pay to check which projection you&rsquo;re saving it to, but I found it&rsquo;s smart enough to use the same projection the source file uses.</li>
+<li>Click OK.</li>
+</ol>
+<hr>
+<h3 id="comments">Comments:</h3>
+<h4 id="heading"></h4>
+<p><a href="http://anthonythecoder.wordpress.com" title="anthonyjoeyjo@gmail.com">Anthony</a> - <!-- raw HTML omitted -->Jan 5, 2014<!-- raw HTML omitted --></p>
+<p>I&rsquo;m glad you are glad :-)!</p>
+<!-- raw HTML omitted -->
+<p>I&rsquo;m glad I found out you know how to do this!</p>
+<!-- raw HTML omitted -->
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

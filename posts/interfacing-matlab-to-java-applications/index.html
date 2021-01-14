@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Interfacing Matlab to Java applications</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://example.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/php.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Interfacing Matlab to Java applications</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                                <li><a href="/portfolio/">Portfolio</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:ajosephau@fastmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/ajosephau/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ajosephau/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/anthony-joseph/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/3427641/anthony-joseph"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Interfacing Matlab to Java applications</h2>
+        <h5></h5>
+        
+<a href="http://example.com/tags/java"><kbd class="item-tag">Java</kbd></a>
+
+<a href="http://example.com/tags/matlab"><kbd class="item-tag">Matlab</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>For existing projects:</p>
+<ul>
+<li>Open Matlab.</li>
+<li>Navigate to the directory holding the Matlab project, and open the project file (going by the extension &ldquo;.prj&rdquo;).</li>
+<li>The &ldquo;Deployment Tool&rdquo; (which can be opened by typing &ldquo;deploytool&rdquo; in the prompt) will be opened.</li>
+<li>If you are updating files, drag the Matlab files off the &ldquo;Classes&rdquo; list and drag the Matlab files onto the &ldquo;Classes&rdquo; list.</li>
+<li>Click on :
+<ul>
+<li>&ldquo;Build&rdquo; icon to make a &ldquo;Jar&rdquo; file of the compiled Matlab files or</li>
+<li>&ldquo;Package&rdquo; icon to make a self extracting executable of the Jar file, Javadoc files and a readme file.</li>
+</ul>
+</li>
+</ul>
+<p>For new projects:</p>
+<ul>
+<li>Enter &ldquo;deploytool&rdquo; into the command window</li>
+<li>Enter a name for the project, a folder and the target should be &ldquo;Java Package&rdquo;.</li>
+<li>Drag Matlab &ldquo;.m&rdquo; files that should be accessible to outside classes by dragging them as &ldquo;Classes&rdquo;. Private functions can be dragged under &ldquo;Shared Resources and Helper Files&rdquo;.</li>
+<li>And you can click on either Build or Package by the above steps.</li>
+</ul>
+<p>Note the Matlab Compiler Runtime is required to run these packages. More information is available <a href="http://www.mathworks.com.au/products/compiler/mcr/index.html">here</a>: <a href="http://www.mathworks.com.au/products/compiler/mcr/index.html">http://www.mathworks.com.au/products/compiler/mcr/index.html</a>.</p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal 7 on Anthony I. Joseph</title>
+    <link>http://example.com/tags/drupal-7/</link>
+    <description>Recent content in Drupal 7 on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Tue, 10 Jun 2014 04:45:40 +0000</lastBuildDate><atom:link href="http://example.com/tags/drupal-7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exporting taxonomy terms in Drupal 7</title>
+      <link>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</link>
+      <pubDate>Tue, 10 Jun 2014 04:45:40 +0000</pubDate>
+      
+      <guid>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</guid>
+      <description>Firstly you&amp;rsquo;ll need to install the UUID Features (https://drupal.org/project/uuid_features) , Features (https://drupal.org/project/features) and UUID (https://drupal.org/project/uuid) modules.
+Once all those modules are enabled, go to example.com/admin/config/content/uuid_features (or on your administration menu go to Administration &amp;ndash;&amp;gt; Content Authoring &amp;ndash;&amp;gt; UUID Features Integration, and under &amp;ldquo;Exportable Taxonomy term bundles&amp;rdquo; check the boxes for the relevant taxonomy terms.
+Go to your features export page at example.com/admin/structure/features/ (or on your administration menu go to Administration &amp;ndash;&amp;gt; Structure &amp;ndash;&amp;gt; Features), create/recreate the feature and you&amp;rsquo;ll see &amp;ldquo;Taxonomy Terms&amp;rdquo; listed.</description>
+    </item>
+    
+    <item>
+      <title>A HTML template for Drupal module reviews</title>
+      <link>http://example.com/posts/a-html-template-for-drupal-module-reviews/</link>
+      <pubDate>Tue, 22 Oct 2013 02:34:24 +0000</pubDate>
+      
+      <guid>http://example.com/posts/a-html-template-for-drupal-module-reviews/</guid>
+      <description>&amp;hellip;. Because I am so painfully lazy, here is a template for reviewing Drupal modules following the guidance at https://drupal.org/node/1587704.
+Issues SummaryBasic application checksRepository checksSecurity reviewLicensing checksDocumentation checksCoding standardsAPI and best practices review</description>
+    </item>
+    
+    <item>
+      <title>Accessing Drupal sandbox projects via the web</title>
+      <link>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</link>
+      <pubDate>Thu, 10 Oct 2013 10:55:13 +0000</pubDate>
+      
+      <guid>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</guid>
+      <description>EDIT: OK so there&amp;rsquo;s an even easier way to do this&amp;hellip; Click on &amp;ldquo;Repository viewer&amp;rdquo; on the right hand menu under the &amp;ldquo;Development&amp;rdquo; heading
+OK, so for some reason when I want to view Drupal modules I can&amp;rsquo;t access them via the usual &amp;ldquo;git clone (git_url_here)&amp;rdquo; command.
+So instead the source code can be accessed by going to drupalcode.org &amp;hellip; but how? Good question :D!
+As an example, let&amp;rsquo;s say you want to check out my sandbox project https://drupal.</description>
+    </item>
+    
+    <item>
+      <title>comment_comment_docblock_missing Drupal 7 Coder module</title>
+      <link>http://example.com/posts/comment_comment_docblock_missing-drupal-7-coder-module/</link>
+      <pubDate>Tue, 30 Jul 2013 06:18:47 +0000</pubDate>
+      
+      <guid>http://example.com/posts/comment_comment_docblock_missing-drupal-7-coder-module/</guid>
+      <description>Ever get a minor warning for &amp;ldquo;comment_comment_docblock_missing&amp;rdquo; when using Drupal 7 Coder module? Even when you have included a docblock?!?
+I found it was my file encoding - I had it set to Windows instead of Linux files :-(. Serves me right for developing on an XP machine!</description>
+    </item>
+    
+    <item>
+      <title>A simple way to create arrays for Drupal testing</title>
+      <link>http://example.com/posts/a-simple-way-to-create-arrays-for-drupal-testing/</link>
+      <pubDate>Tue, 30 Jul 2013 00:08:44 +0000</pubDate>
+      
+      <guid>http://example.com/posts/a-simple-way-to-create-arrays-for-drupal-testing/</guid>
+      <description>So after not playing Company of Heroes&amp;hellip;. I&amp;rsquo;m back on Drupal module development, in particular how to create tests as quickly as possible.
+I found two things:
+You can print out php arrays, classes etc pretty easily by using the &amp;ldquo;var_export($array,TRUE)&amp;rdquo; function (thanks Stack overflow! stackoverflow.com/questions/6759864/how-to-create-an-array-from-var-dump-result )
+And when you get things like &amp;ldquo;stdClass::__set_state()&amp;rdquo; you can replace it with a cast to object, like &amp;ldquo;(object)&amp;rdquo;. Thanks Drupal forums&amp;hellip; https://drupal.org/node/584672
+Now there&amp;rsquo;s no excuse for not testing your code :-)!</description>
+    </item>
+    
+    <item>
+      <title>Adding a configure link to a Drupal module</title>
+      <link>http://example.com/posts/adding-a-configure-link-to-a-drupal-module/</link>
+      <pubDate>Tue, 25 Jun 2013 01:22:25 +0000</pubDate>
+      
+      <guid>http://example.com/posts/adding-a-configure-link-to-a-drupal-module/</guid>
+      <description>If you want to add a &amp;ldquo;Configure&amp;rdquo; link to a module&amp;rsquo;s entry in the &amp;lsquo;Administration &amp;raquo; Modules&amp;rsquo; page, add the following line to a module&amp;rsquo;s &amp;ldquo;.info&amp;rdquo; file:
+ configure = path/to/admin/page
+ This path&amp;rsquo;ll be in your hook_menu() implementation.
+Thanks to this bug report I found https://drupal.org/node/1582464</description>
+    </item>
+    
+    <item>
+      <title>Inserting tags in HEAD section of a Drupal page</title>
+      <link>http://example.com/posts/inserting-tags-in-head-section-of-a-drupal-page/</link>
+      <pubDate>Sun, 16 Jun 2013 13:25:33 +0000</pubDate>
+      
+      <guid>http://example.com/posts/inserting-tags-in-head-section-of-a-drupal-page/</guid>
+      <description>The &amp;ldquo;hook_html_head_alter()&amp;rdquo; can let you add tags to the HEAD section of a Drupal page. Despite some of the comments, I found that if you need to put it into a module in Drupal 7, you do need to name the hook after the module&amp;rsquo;s name, instead of just &amp;ldquo;template_&amp;rdquo;&amp;hellip;.
+If you want to build tags&amp;hellip; the Drupal way :-P&amp;hellip; try the function theme_html_tag().
+I found this was useful for a module I was writing&amp;hellip; stay tuned people :-).</description>
+    </item>
+    
+  </channel>
+</rss>

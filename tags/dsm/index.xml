@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DSM on Anthony I. Joseph</title>
+    <link>http://example.com/tags/dsm/</link>
+    <description>Recent content in DSM on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 11 Jul 2014 02:19:05 +0000</lastBuildDate><atom:link href="http://example.com/tags/dsm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importing multiple intermediate certificates on Synology DSM 5.0</title>
+      <link>http://example.com/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</link>
+      <pubDate>Fri, 11 Jul 2014 02:19:05 +0000</pubDate>
+      
+      <guid>http://example.com/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</guid>
+      <description>I recently bought an SSL certificate from Comodo, and when I got my certificate I also received two intermediate certificates&amp;hellip;
+The problem came when trying to import the two intermediate certificates&amp;hellip; on the Synology DSM 5.0 firmware, there&amp;rsquo;s only one field for the intermediate certificates&amp;hellip;
+
+So how did I get both certificates into the one file? It&amp;rsquo;s actually really simple - I combined the two certificates into a single, .</description>
+    </item>
+    
+  </channel>
+</rss>

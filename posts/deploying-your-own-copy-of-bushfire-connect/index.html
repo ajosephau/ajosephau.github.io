@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Deploying your own copy of Bushfire Connect</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://example.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/php.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Deploying your own copy of Bushfire Connect</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                                <li><a href="/portfolio/">Portfolio</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:ajosephau@fastmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/ajosephau/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ajosephau/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/anthony-joseph/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/3427641/anthony-joseph"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Deploying your own copy of Bushfire Connect</h2>
+        <h5></h5>
+        
+<a href="http://example.com/tags/bushfire-connect"><kbd class="item-tag">Bushfire Connect</kbd></a>
+
+<a href="http://example.com/tags/web"><kbd class="item-tag">Web</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p><a href="/images/logo3.png"><img src="/images/logo3.png" alt="logo3"></a></p>
+<p>So I worked on this awesome community startup Bushfire Connect. It is with a bit of sadness that I write this, given that we shut down our service a few years ago, but I wanted to put a note here on how to redeploy Bushfire Connect on your web server.</p>
+<p>Please note this is a somewhat cut-down version of the Bushfire Connect we ran: all of the usernames and passwords have been stripped and a sole &ldquo;admin&rdquo; account is included.</p>
+<h1 id="prerequisites">Prerequisites</h1>
+<p>Your standard Linux/Apache/MySQL/PHP web server. Please note this hasn&rsquo;t had many security patches applied so it&rsquo;s likely to have unpatched security vulnerabilities, so be careful!</p>
+<h1 id="loading-the-database">Loading the database</h1>
+<p>Go to <a href="https://github.com/ajosephau/Bushfire-Connect/blob/master/database/bushfireconnect_live.sql">https://github.com/ajosephau/Bushfire-Connect/blob/master/database/bushfireconnect_live.sql</a> and download the SQL file and import it to a MySQL database using your database management app of choice (like phpMyAdmin).</p>
+<h1 id="uploading-the-web-files">Uploading the web files</h1>
+<p>Download all the files at: https://github.com/ajosephau/Bushfire-Connect/tree/master/ushahidi and upload them to your web server (let&rsquo;s say you upload it to your a subfolder called &ldquo;bushfireconnect&rdquo; in your web root folder (like /var/www/html).</p>
+<p>edit the application/config/database.php with the appropriate config as below for the database (replace &ldquo;TODO_TEXT&rdquo; with relevant parameters.)</p>
+<pre><code>$config\['default'\] = array
+ (
+ 'benchmark' =&gt; TRUE,
+ 'persistent' =&gt; FALSE,
+ 'connection' =&gt; array
+ (
+ 'type' =&gt; 'mysql',
+ 'user' =&gt; 'TODO\_TEXT\_DATABASE\_USERNAME',
+ 'pass' =&gt; 'TODO\_TEXT\_DATABASE\_USERNAME\_PASSWORD',
+ 'host' =&gt; 'TODO\_TEXT\_DATABASE\_HOSTNAME',
+ 'port' =&gt; FALSE,
+ 'socket' =&gt; FALSE,
+ 'database' =&gt; 'TODO\_TEXT\_DATABASE\_NAME'
+ ),
+ 'character\_set' =&gt; 'utf8',
+ 'table\_prefix' =&gt; '',
+ 'object' =&gt; TRUE,
+ 'cache' =&gt; FALSE,
+ 'escape' =&gt; TRUE
+ );
+```From the web server's console run the following commands```
+chmod 777 application/config/config.php
+chmod 777 application/config
+chmod 777 application/cache
+chmod 777 application/logs
+chmod 777 media/uploads
+chmod 777 .htaccess
+```Edit application/config/config.php so it has:```
+$config\['site\_domain'\] = 'localhost/bushfireconnect/';
+$config\['site\_protocol'\] = 'http';
+$config\['index\_page'\] = 'index.php';
+$config\['internal\_cache'\] = FALSE;
+```Changing &quot;localhost&quot; to whatever your domain name is, and &quot;bushfireconnect&quot; to the subdirectory you uploaded the files to. And lastly login as an administrator at http://localhost/ushahidi/index.php/login with the username &quot;admin&quot; and password &quot;adm1n1st2011&quot;
+
+Some pretty usage statistics
+============================
+
+[![screenshot1](/images/screenshot1.png?w=274)](/images/screenshot1.png)
+
+[![screenshot2](/images/screenshot2.png?w=300)](/images/screenshot2.png)
+
+[![screenshot3](/images/screenshot3.png?w=300)](/images/screenshot3.png)</code></pre></div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWT on Anthony I. Joseph</title>
+    <link>http://example.com/tags/awt/</link>
+    <description>Recent content in AWT on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Wed, 26 Jun 2013 00:00:03 +0000</lastBuildDate><atom:link href="http://example.com/tags/awt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alternating AWT graphics colour</title>
+      <link>http://example.com/posts/awt-graphics-alternating-graphics-colour/</link>
+      <pubDate>Wed, 26 Jun 2013 00:00:03 +0000</pubDate>
+      
+      <guid>http://example.com/posts/awt-graphics-alternating-graphics-colour/</guid>
+      <description>It is possible to draw 2D colours in such a way that it inverts colours behind it, like in the screenshot below:
+
+This can be done by enabling “XOR Colour mode” and by using&amp;hellip;
+Color.WHITE ```...this is because white has an RGB value of 255,255,255, and XOR’ing these values will cause the alternating effect. The following code example shows this: graphics.setXORMode(Color.WHITE); graphics.drawLine(x, delegate.getXAxisHeight(), x, delegate.getDiagramRect().height + delegate.getXAxisHeight()); graphics.setColor(Color.BLACK);</description>
+    </item>
+    
+    <item>
+      <title>Changing AWT line thickness</title>
+      <link>http://example.com/posts/awt-graphics-changing-line-thickness/</link>
+      <pubDate>Sun, 23 Jun 2013 00:00:32 +0000</pubDate>
+      
+      <guid>http://example.com/posts/awt-graphics-changing-line-thickness/</guid>
+      <description>To change the line thickness from thin bands to thicker bands, like below:
+
+Set the “stroke” size used on the Graphics2D object:
+ Graphics2D graphicsSG2D = ((Graphics2D) graphics); if(graphics instanceof Graphics2D) { stroke = graphicsSG2D.getStroke(); graphicsSG2D.setStroke(new BasicStroke(3)); } if(graphics instanceof Graphics2D &amp;amp;&amp;amp; stroke != null) { graphicsSG2D.setStroke(stroke); } Don’t forget to save the previous stroke type, using
+graphics2D.getStroke() and then reset it after drawing this alternative-thickness line.</description>
+    </item>
+    
+  </channel>
+</rss>

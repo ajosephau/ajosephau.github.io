@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bushfire Connect on Anthony I. Joseph</title>
+    <link>http://example.com/tags/bushfire-connect/</link>
+    <description>Recent content in Bushfire Connect on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Thu, 30 Oct 2014 06:51:00 +0000</lastBuildDate><atom:link href="http://example.com/tags/bushfire-connect/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying your own copy of Bushfire Connect</title>
+      <link>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</link>
+      <pubDate>Thu, 30 Oct 2014 06:51:00 +0000</pubDate>
+      
+      <guid>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</guid>
+      <description>So I worked on this awesome community startup Bushfire Connect. It is with a bit of sadness that I write this, given that we shut down our service a few years ago, but I wanted to put a note here on how to redeploy Bushfire Connect on your web server.
+Please note this is a somewhat cut-down version of the Bushfire Connect we ran: all of the usernames and passwords have been stripped and a sole &amp;ldquo;admin&amp;rdquo; account is included.</description>
+    </item>
+    
+  </channel>
+</rss>

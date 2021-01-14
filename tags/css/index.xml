@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on Anthony I. Joseph</title>
+    <link>http://example.com/tags/css/</link>
+    <description>Recent content in CSS on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Mon, 17 Jun 2013 04:17:36 +0000</lastBuildDate><atom:link href="http://example.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It&#39;s important! Overriding CSS commands with the important keyword</title>
+      <link>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</link>
+      <pubDate>Mon, 17 Jun 2013 04:17:36 +0000</pubDate>
+      
+      <guid>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</guid>
+      <description>You can use the !important keyword to override previously run CSS directives! Interesting, right?
+More information at: http://en.m.wikibooks.org/wiki/Cascading_Style_Sheets/Important</description>
+    </item>
+    
+    <item>
+      <title>Using em&#39;s as a unit of measure</title>
+      <link>http://example.com/posts/using-ems-as-a-unit-of-measure/</link>
+      <pubDate>Mon, 17 Jun 2013 02:35:05 +0000</pubDate>
+      
+      <guid>http://example.com/posts/using-ems-as-a-unit-of-measure/</guid>
+      <description>Doing measurements in CSS? Maybe consider using em&amp;rsquo;s as a measure of unit instead of pixels&amp;hellip; So all units are related to a pixel size, not a specific pixel measure&amp;hellip;
+The Wikipedia article has some good notes..
+en.m.wikipedia.org/wiki/Em_(typography)</description>
+    </item>
+    
+    <item>
+      <title>Including a CSS file in another CSS file</title>
+      <link>http://example.com/posts/including-a-css-file-in-another-file/</link>
+      <pubDate>Wed, 12 Jun 2013 23:06:38 +0000</pubDate>
+      
+      <guid>http://example.com/posts/including-a-css-file-in-another-file/</guid>
+      <description>Use the line &amp;ldquo;@import url(file.css);&amp;rdquo;.
+Apparently this needs to be the first line in a CSS file. Don&amp;rsquo;t forget the final semi-colon like I did :/&amp;hellip;
+Thanks Stack Overflow!
+http://stackoverflow.com/questions/147500/is-it-possible-to-include-one-css-file-into-another</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Paging queries (or querying large amounts of data) from a MySQL database in Java</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://example.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/php.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Paging queries (or querying large amounts of data) from a MySQL database in Java</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                                <li><a href="/portfolio/">Portfolio</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:ajosephau@fastmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/ajosephau/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ajosephau/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/anthony-joseph/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/3427641/anthony-joseph"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Paging queries (or querying large amounts of data) from a MySQL database in Java</h2>
+        <h5></h5>
+        
+<a href="http://example.com/tags/mysql"><kbd class="item-tag">MySQL</kbd></a>
+
+<a href="http://example.com/tags/systems-administration"><kbd class="item-tag">Systems Administration</kbd></a>
+
+<a href="http://example.com/tags/web"><kbd class="item-tag">Web</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>So I was trying to run a query of a large number of rows on a MySQL database using Java MySQL JDBC connectors, and I couldn&rsquo;t find an easy way to do this&hellip; so once I found out, I thought I&rsquo;d post it here!</p>
+<p><code>Connection existingDBConn = DriverManager.getConnection(&quot;jdbc:mysql://databaseServerName:3306/databaseName&quot;,&quot;username&quot;,&quot;password&quot;); Statement selectStatement = null; selectStatement = existingDBConn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY); selectStatement.setAutoCommit(false); selectStatement.setFetchSize(Integer.MIN_VALUE);</code></p>
+<p><code>if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStatement.getResultSet(); while (selectResultSet.next()) { System.out.println(selectResultSet.getString(1));// and so on......... whatever you'd do on each row of the database } } while (!((selectStatement.getMoreResults() == false) &amp;&amp; (selectStatement.getUpdateCount() == -1))); }</code></p>
+<p>The things I needed to was to &ldquo;setAutoCommit&rdquo; to false and set the fetch size to &ldquo;Integer.MIN_VALUE&rdquo;.</p>
+<p>Here&rsquo;s some of the references I used: - <a href="http://stackoverflow.com/questions/14535846/how-do-i-load-100-million-rows-in-to-memory">http://stackoverflow.com/questions/14535846/how-do-i-load-100-million-rows-in-to-memory</a> - <a href="http://stackoverflow.com/questions/3682614/jdbc-how-to-read-all-rows-from-huge-table">http://stackoverflow.com/questions/3682614/jdbc-how-to-read-all-rows-from-huge-table</a> - <a href="http://dev.mysql.com/doc/refman/5.5/en/connector-j-reference-implementation-notes.html">http://dev.mysql.com/doc/refman/5.5/en/connector-j-reference-implementation-notes.html</a></p>
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

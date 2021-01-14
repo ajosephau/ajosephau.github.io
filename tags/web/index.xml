@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Anthony I. Joseph</title>
+    <link>http://example.com/tags/web/</link>
+    <description>Recent content in Web on Anthony I. Joseph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Tue, 20 Oct 2015 01:19:54 +0000</lastBuildDate><atom:link href="http://example.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advice for smart (running) girls on online privacy...</title>
+      <link>http://example.com/posts/advice-for-smart-running-girls-on-online-privacy/</link>
+      <pubDate>Tue, 20 Oct 2015 01:19:54 +0000</pubDate>
+      
+      <guid>http://example.com/posts/advice-for-smart-running-girls-on-online-privacy/</guid>
+      <description>So not to be a &amp;lsquo;creepy Steve&amp;rsquo; a la Smart Girl&amp;rsquo;s Guide to Online Privacy (fantastic read!), but another piece of advice I&amp;rsquo;d leave for the privacy-conscious who post their photos with their running bib&amp;rsquo;s on social media (especially dating sites).
+If you go to running competition results pages, like the one for the Sydney Blackmores Running Festival (not just limited to this competition - pretty much all running events use similar results websites), you&amp;rsquo;ll see that all you need to find out someone&amp;rsquo;s name, age and in some cases suburb is their bib number&amp;hellip; So as always be wary of what you post online!</description>
+    </item>
+    
+    <item>
+      <title>Monitoring a shell script (external job) running on CentOS with Jenkins</title>
+      <link>http://example.com/posts/monitoring-a-shell-script-with-jenkins-on-centos/</link>
+      <pubDate>Mon, 03 Nov 2014 07:06:52 +0000</pubDate>
+      
+      <guid>http://example.com/posts/monitoring-a-shell-script-with-jenkins-on-centos/</guid>
+      <description>So I wanted to setup Jenkins external monitoring on a web server I have on a Centos VM, and I found a combination of these three blog posts worked!
+ http://kvdev.wordpress.com/2012/03/01/jenkins-monitoring-external-jobs/ http://stackoverflow.com/questions/11830098/setup-jenkins-to-monitor-external-job https://gist.github.com/junaid18183/8450761  Firstly, run the following commands :``` wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo rpm &amp;ndash;import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key yum -y install jenkins
+* run the following: cd /usr/lib/jenkins unzip /usr/lib/jenkins/jenkins.war
+ * Install OpenJDK while you&#39;re at it. * Go to Jenkins and create a &amp;quot;Monitor an external job&amp;quot; called &amp;quot;New Job&amp;quot; * Create an environment variable by $export JENKINS_HOME=http://jenkins_host:8080 , replacing &amp;ldquo;jenkins_host&amp;rdquo; with the server running Jenkins</description>
+    </item>
+    
+    <item>
+      <title>Deploying your own copy of Bushfire Connect</title>
+      <link>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</link>
+      <pubDate>Thu, 30 Oct 2014 06:51:00 +0000</pubDate>
+      
+      <guid>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</guid>
+      <description>So I worked on this awesome community startup Bushfire Connect. It is with a bit of sadness that I write this, given that we shut down our service a few years ago, but I wanted to put a note here on how to redeploy Bushfire Connect on your web server.
+Please note this is a somewhat cut-down version of the Bushfire Connect we ran: all of the usernames and passwords have been stripped and a sole &amp;ldquo;admin&amp;rdquo; account is included.</description>
+    </item>
+    
+    <item>
+      <title>Installing cmdbuild on Ubuntu 14.04 LTS</title>
+      <link>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</link>
+      <pubDate>Tue, 26 Aug 2014 06:13:39 +0000</pubDate>
+      
+      <guid>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</guid>
+      <description>So the instructions on the Ubuntu wiki are good, but I found I had to make some slight changes in order to get it to work on the latest (at this time!) Ubuntu LTS version (14.04). I&amp;rsquo;m not too sure how secure the server is though&amp;hellip; comments anyone? Here are the instructions I followed to get it to work
+ Install ubuntu on your platform (I&amp;rsquo;m using VirtualBox). Start up the terminal app.</description>
+    </item>
+    
+    <item>
+      <title>Exporting taxonomy terms in Drupal 7</title>
+      <link>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</link>
+      <pubDate>Tue, 10 Jun 2014 04:45:40 +0000</pubDate>
+      
+      <guid>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</guid>
+      <description>Firstly you&amp;rsquo;ll need to install the UUID Features (https://drupal.org/project/uuid_features) , Features (https://drupal.org/project/features) and UUID (https://drupal.org/project/uuid) modules.
+Once all those modules are enabled, go to example.com/admin/config/content/uuid_features (or on your administration menu go to Administration &amp;ndash;&amp;gt; Content Authoring &amp;ndash;&amp;gt; UUID Features Integration, and under &amp;ldquo;Exportable Taxonomy term bundles&amp;rdquo; check the boxes for the relevant taxonomy terms.
+Go to your features export page at example.com/admin/structure/features/ (or on your administration menu go to Administration &amp;ndash;&amp;gt; Structure &amp;ndash;&amp;gt; Features), create/recreate the feature and you&amp;rsquo;ll see &amp;ldquo;Taxonomy Terms&amp;rdquo; listed.</description>
+    </item>
+    
+    <item>
+      <title>Adding Internode email accounts to Airmail</title>
+      <link>http://example.com/posts/adding-internode-email-accounts-to-airmail/</link>
+      <pubDate>Mon, 17 Mar 2014 02:30:59 +0000</pubDate>
+      
+      <guid>http://example.com/posts/adding-internode-email-accounts-to-airmail/</guid>
+      <description>I finally found out the settings to get Airmail to work with the Internode email service - the email address is username@internode.on.net and you use your &amp;ldquo;username&amp;rdquo; as the username for the login credentials (as you do for the account preferences). Leave the ports blank and Airmail figures out the rest!</description>
+    </item>
+    
+    <item>
+      <title>A HTML template for Drupal module reviews</title>
+      <link>http://example.com/posts/a-html-template-for-drupal-module-reviews/</link>
+      <pubDate>Tue, 22 Oct 2013 02:34:24 +0000</pubDate>
+      
+      <guid>http://example.com/posts/a-html-template-for-drupal-module-reviews/</guid>
+      <description>&amp;hellip;. Because I am so painfully lazy, here is a template for reviewing Drupal modules following the guidance at https://drupal.org/node/1587704.
+Issues SummaryBasic application checksRepository checksSecurity reviewLicensing checksDocumentation checksCoding standardsAPI and best practices review</description>
+    </item>
+    
+    <item>
+      <title>A quick way to import Natural Earth raster images to GeoServer</title>
+      <link>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</link>
+      <pubDate>Sat, 24 Aug 2013 12:02:34 +0000</pubDate>
+      
+      <guid>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</guid>
+      <description>Start up your GeoServer instance and log in as an admin. Go to Data &amp;ndash;&amp;gt; Workplaces. Click &amp;ldquo;Add new workplace&amp;rdquo;. Enter a new name and URI. Go to Data &amp;ndash;&amp;gt; Stores Click &amp;ldquo;Add new Store&amp;rdquo; Click &amp;ldquo;WorldImage&amp;rdquo; (under Raster Data Sources) Create a data source name and select the tiff file you want to upload. Under &amp;ldquo;Coordinate Reference Systems&amp;rdquo;, pick one like &amp;ldquo;900913&amp;rdquo; (don&amp;rsquo;t know which one to use, but this one works?</description>
+    </item>
+    
+    <item>
+      <title>Paging queries (or querying large amounts of data) from a MySQL database in Java</title>
+      <link>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</link>
+      <pubDate>Mon, 19 Aug 2013 11:26:22 +0000</pubDate>
+      
+      <guid>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</guid>
+      <description>So I was trying to run a query of a large number of rows on a MySQL database using Java MySQL JDBC connectors, and I couldn&amp;rsquo;t find an easy way to do this&amp;hellip; so once I found out, I thought I&amp;rsquo;d post it here!
+Connection existingDBConn = DriverManager.getConnection(&amp;quot;jdbc:mysql://databaseServerName:3306/databaseName&amp;quot;,&amp;quot;username&amp;quot;,&amp;quot;password&amp;quot;); Statement selectStatement = null; selectStatement = existingDBConn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY); selectStatement.setAutoCommit(false); selectStatement.setFetchSize(Integer.MIN_VALUE);
+if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStatement.getResultSet(); while (selectResultSet.next()) { System.out.println(selectResultSet.getString(1));// and so on.</description>
+    </item>
+    
+    <item>
+      <title>Creating MySQL views in phpMyAdmin</title>
+      <link>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</link>
+      <pubDate>Mon, 19 Aug 2013 03:08:06 +0000</pubDate>
+      
+      <guid>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</guid>
+      <description>I saw lots of various answers to this question, but I thought I might share a quick and easy way of doing this I stumbled upon!
+ Select your database Click on the SQL tab and run the query you want to power your view Under &amp;ldquo;query results operations&amp;rdquo;, select &amp;ldquo;create view&amp;rdquo;. You will see your brand new view if you click on the &amp;ldquo;structure&amp;rdquo; tab for the database  </description>
+    </item>
+    
+    <item>
+      <title>It&#39;s important! Overriding CSS commands with the important keyword</title>
+      <link>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</link>
+      <pubDate>Mon, 17 Jun 2013 04:17:36 +0000</pubDate>
+      
+      <guid>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</guid>
+      <description>You can use the !important keyword to override previously run CSS directives! Interesting, right?
+More information at: http://en.m.wikibooks.org/wiki/Cascading_Style_Sheets/Important</description>
+    </item>
+    
+    <item>
+      <title>Using em&#39;s as a unit of measure</title>
+      <link>http://example.com/posts/using-ems-as-a-unit-of-measure/</link>
+      <pubDate>Mon, 17 Jun 2013 02:35:05 +0000</pubDate>
+      
+      <guid>http://example.com/posts/using-ems-as-a-unit-of-measure/</guid>
+      <description>Doing measurements in CSS? Maybe consider using em&amp;rsquo;s as a measure of unit instead of pixels&amp;hellip; So all units are related to a pixel size, not a specific pixel measure&amp;hellip;
+The Wikipedia article has some good notes..
+en.m.wikipedia.org/wiki/Em_(typography)</description>
+    </item>
+    
+    <item>
+      <title>Including a CSS file in another CSS file</title>
+      <link>http://example.com/posts/including-a-css-file-in-another-file/</link>
+      <pubDate>Wed, 12 Jun 2013 23:06:38 +0000</pubDate>
+      
+      <guid>http://example.com/posts/including-a-css-file-in-another-file/</guid>
+      <description>Use the line &amp;ldquo;@import url(file.css);&amp;rdquo;.
+Apparently this needs to be the first line in a CSS file. Don&amp;rsquo;t forget the final semi-colon like I did :/&amp;hellip;
+Thanks Stack Overflow!
+http://stackoverflow.com/questions/147500/is-it-possible-to-include-one-css-file-into-another</description>
+    </item>
+    
+  </channel>
+</rss>

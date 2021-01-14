@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Migrating (or Backup/Restore) Boot Camp partitions on OSX Yosemite and older</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://example.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/php.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.80.0" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Migrating (or Backup/Restore) Boot Camp partitions on OSX Yosemite and older</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/resume/">Resume</a></li>
+                            
+                                <li><a href="/portfolio/">Portfolio</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:ajosephau@fastmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/ajosephau/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/ajosephau/"><i class="fab fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/anthony-joseph/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/3427641/anthony-joseph"><i class="fab fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Migrating (or Backup/Restore) Boot Camp partitions on OSX Yosemite and older</h2>
+        <h5></h5>
+        
+<a href="http://example.com/tags/osx"><kbd class="item-tag">OSX</kbd></a>
+
+<a href="http://example.com/tags/systems-administration"><kbd class="item-tag">Systems Administration</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>Update: I tried installing the app on OSX El Capitan, and there&rsquo;s a big warning about OS incompatibility&hellip;</p>
+<p><img src="/images/screen-shot-2015-12-08-at-12-21-56.png?w=300" alt="Screen Shot 2015-12-08 at 12.21.56"></p>
+<hr>
+<p>I found a (free!) way to migrate my boot camp partition from one hard drive to another. I used Paragon&rsquo;s Boot Camp Backup (<a href="http://www.paragon-software.com/home/bootcamp-backup/">http://www.paragon-software.com/home/bootcamp-backup/</a>) and:</p>
+<ul>
+<li>create a back up of my boot camp partition from the old hard drive,</li>
+<li>installed OSX and Boot Camp Backup on the new hard drive (with a new partition for Boot Camp),</li>
+<li>In order to enable the &ldquo;restore&rdquo; feature, I selected the newly created Boot Camp partition as the &ldquo;source&rdquo; and select the &ldquo;destination&rdquo; as the backup image created in the first step&hellip; click on the &ldquo;Restore&rdquo; tab and then restore the image to the new partition!</li>
+</ul>
+<h2 id="never-tried-the-alternatives-like-winclone-but-since-i-dont-really-do-this-often-i-didnt-want-to-pay-for-it--">Never tried the alternatives like WinClone, but since I don&rsquo;t really do this often I didn&rsquo;t want to pay for it :-).</h2>
+<h3 id="comments">Comments:</h3>
+<h4 id="heading"></h4>
+<p><a href="%22foreverneilyoung@googlemail.com%22">neil</a> - <!-- raw HTML omitted -->Dec 2, 2015<!-- raw HTML omitted --></p>
+<p>Any new information on that? As far as I can see Paragon is not claiming to support El Capitan, so I would expect to have problems</p>
+<!-- raw HTML omitted -->
+<p>Doesn&rsquo;t look like there&rsquo;s a way to :-(&hellip;</p>
+<!-- raw HTML omitted -->
+<p>That is interesting&hellip; Thanks for sharing!</p>
+<!-- raw HTML omitted -->
+<p>Im sorry but that simply doesnt work. I was in OSX Mountain Lion and I made a backup image of the bootcamp drive with paragon bootcamp backup. Then I upgraded the SSD and installed El Capitan. Reinstalled Paragon Backup but the Restore option is grayed-out. No matter what I cant migrate that backup image back to a FAT formatted partition so it becomes bootcamp again.</p>
+<!-- raw HTML omitted -->
+<p>Hmmm I haven&rsquo;t tried this with El Capitan - I&rsquo;ll give it a shot and let you know what I find out&hellip;</p>
+<!-- raw HTML omitted -->
+<p>Might be late to the conversation, but I think you can find on the paragon website that this won&rsquo;t work for El Capitan. What will work however, (according to them) is their new product called Hard Disk Manager for Mac. You might give it a try. I just used it to backup my Win 10 bootcamp partition and it did so very quickly. I will have to see if it will restore it properly when I get the replacement macbook pro.</p>
+<!-- raw HTML omitted -->
+</div>
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
