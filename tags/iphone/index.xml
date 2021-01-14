@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iPhone on Anthony I. Joseph</title>
-    <link>http://example.com/tags/iphone/</link>
+    <link>https://ajosephau.github.io/tags/iphone/</link>
     <description>Recent content in iPhone on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 07 Oct 2013 20:38:37 +0000</lastBuildDate><atom:link href="http://example.com/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Oct 2013 20:38:37 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can&#39;t use touch screen on iPhone 4S with iOS 7?</title>
-      <link>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</link>
+      <link>https://ajosephau.github.io/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</link>
       <pubDate>Mon, 07 Oct 2013 20:38:37 +0000</pubDate>
       
-      <guid>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</guid>
+      <guid>https://ajosephau.github.io/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</guid>
       <description>When is the worst time to lose access to your touch screen on your iPhone? That&amp;rsquo;s right, when you&amp;rsquo;re getting that important phone call, text message or want to take a photo of something&amp;hellip;
 Anyways, a soft reset (press and hold the home and lock buttons for about 5-10 seconds) and it was back to normal :-)!</description>
     </item>
     
     <item>
       <title>Improving iOS 7 performance on iPhone 4S</title>
-      <link>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</link>
+      <link>https://ajosephau.github.io/posts/improving-ios-7-performance-on-iphone-4s/</link>
       <pubDate>Wed, 25 Sep 2013 06:32:35 +0000</pubDate>
       
-      <guid>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</guid>
+      <guid>https://ajosephau.github.io/posts/improving-ios-7-performance-on-iphone-4s/</guid>
       <description>So I have more adventure in getting iOS 7 on my iPhone 4S: I found that when I would unlock my phone or browse the home screen the user interface would have some lag and be slow to respond.
 I think it&amp;rsquo;s because of the new wallpaper settings that move when you tilt the phone&amp;hellip; (and it changed my wallpapers that didn&amp;rsquo;t fit my screen&amp;rsquo;s resolution like it did in iOS 6.</description>
     </item>
     
     <item>
       <title>Problems syncing music in iOS 7.0</title>
-      <link>http://example.com/posts/problems-syncing-music-in-ios-7-0/</link>
+      <link>https://ajosephau.github.io/posts/problems-syncing-music-in-ios-7-0/</link>
       <pubDate>Fri, 20 Sep 2013 07:55:02 +0000</pubDate>
       
-      <guid>http://example.com/posts/problems-syncing-music-in-ios-7-0/</guid>
+      <guid>https://ajosephau.github.io/posts/problems-syncing-music-in-ios-7-0/</guid>
       <description>Being a little too eager, I upgraded my iPhone to the latest iOS 7 version&amp;hellip;. but had issues trying to sync my music collection&amp;hellip;. basically I would sync my music and somewhere into the process it would stop unexpectedly, saying &amp;ldquo;Cancelling sync&amp;rdquo;.
 I found that I had some songs had text in the comments field and characters like &amp;ldquo;「&amp;rdquo; and &amp;ldquo;」&amp;rdquo; - after removing them all my songs synchronised perfectly!</description>
     </item>

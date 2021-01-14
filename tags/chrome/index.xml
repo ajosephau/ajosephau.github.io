@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrome on Anthony I. Joseph</title>
-    <link>http://example.com/tags/chrome/</link>
+    <link>https://ajosephau.github.io/tags/chrome/</link>
     <description>Recent content in Chrome on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 31 Dec 2013 09:49:02 +0000</lastBuildDate><atom:link href="http://example.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Dec 2013 09:49:02 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enabling Google Plus integration into Chrome</title>
-      <link>http://example.com/posts/enabling-google-plus-integration-into-chrome/</link>
+      <link>https://ajosephau.github.io/posts/enabling-google-plus-integration-into-chrome/</link>
       <pubDate>Tue, 31 Dec 2013 09:49:02 +0000</pubDate>
       
-      <guid>http://example.com/posts/enabling-google-plus-integration-into-chrome/</guid>
+      <guid>https://ajosephau.github.io/posts/enabling-google-plus-integration-into-chrome/</guid>
       <description>I don&amp;rsquo;t know if you have ever wanted to get google plus integration into Google Chrome (so this works for Chrome Canary and for Chromium) where you can see your google plus notifications and quickly access gmail and the like&amp;hellip;.
 
 It&amp;rsquo;s rather simple!

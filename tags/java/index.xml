@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Anthony I. Joseph</title>
-    <link>http://example.com/tags/java/</link>
+    <link>https://ajosephau.github.io/tags/java/</link>
     <description>Recent content in Java on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 03 Jul 2013 00:00:56 +0000</lastBuildDate><atom:link href="http://example.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2013 00:00:56 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding filtering to a JTable</title>
-      <link>http://example.com/posts/adding-filtering-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-filtering-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</guid>
       <description>To filter out rows in a JTable, you will need to add a RowFilter (javax.swing.RowFilter). This row filter takes a table model and an object that correspond to an entry in the model.
 RowFilter&amp;lt;object,object&amp;gt; startsWithAFilter = new RowFilter&amp;lt;object,object&amp;gt;() { public boolean include(Entry entry) { for (int i = entry.getValueCount() - 1; i &amp;gt;= 0; i--) { if (entry.getStringValue(i).startsWith(&amp;quot;a&amp;quot;)) { // The value starts with &amp;quot;a&amp;quot;, include it return true; } } // None of the columns start with &amp;quot;a&amp;quot; // return false so that this // entry is not shown return false; } }; ```There are a few types of RowFilters available, like a generic “include” filter (so you specify which rows are to be included), a number/date/regex filter (which are specific RowFilter types) and an AND/OR/NOT filter to combine different row filters together.</description>
     </item>
     
     <item>
       <title>Interfacing Matlab to Java applications</title>
-      <link>http://example.com/posts/interfacing-matlab-to-java-applications/</link>
+      <link>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/interfacing-matlab-to-java-applications/</guid>
+      <guid>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</guid>
       <description>For existing projects:
  Open Matlab. Navigate to the directory holding the Matlab project, and open the project file (going by the extension &amp;ldquo;.prj&amp;rdquo;). The &amp;ldquo;Deployment Tool&amp;rdquo; (which can be opened by typing &amp;ldquo;deploytool&amp;rdquo; in the prompt) will be opened. If you are updating files, drag the Matlab files off the &amp;ldquo;Classes&amp;rdquo; list and drag the Matlab files onto the &amp;ldquo;Classes&amp;rdquo; list. Click on :  &amp;ldquo;Build&amp;rdquo; icon to make a &amp;ldquo;Jar&amp;rdquo; file of the compiled Matlab files or &amp;ldquo;Package&amp;rdquo; icon to make a self extracting executable of the Jar file, Javadoc files and a readme file.</description>
     </item>
     
     <item>
       <title>Good Java tutorials and technologies....</title>
-      <link>http://example.com/posts/good-java-tutorials-and-technologies/</link>
+      <link>https://ajosephau.github.io/posts/good-java-tutorials-and-technologies/</link>
       <pubDate>Sat, 29 Jun 2013 00:00:06 +0000</pubDate>
       
-      <guid>http://example.com/posts/good-java-tutorials-and-technologies/</guid>
+      <guid>https://ajosephau.github.io/posts/good-java-tutorials-and-technologies/</guid>
       <description>So I&amp;rsquo;ll keep this updated over time&amp;hellip; but for now:
 Technologies
 - OpenMap: A Java GIS tool. A friend Martin T. (thanks Martin!!) suggests GeoTools as an alternate Java-based framework for GIS&amp;hellip; - GeographicLib a promising looking library for converting between coordinate systems.
@@ -42,10 +42,10 @@ Tutorials
     
     <item>
       <title>Alternating AWT graphics colour</title>
-      <link>http://example.com/posts/awt-graphics-alternating-graphics-colour/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</link>
       <pubDate>Wed, 26 Jun 2013 00:00:03 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-alternating-graphics-colour/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</guid>
       <description>It is possible to draw 2D colours in such a way that it inverts colours behind it, like in the screenshot below:
 
 This can be done by enabling “XOR Colour mode” and by using&amp;hellip;
@@ -54,10 +54,10 @@ Color.WHITE ```...this is because white has an RGB value of 255,255,255, and XOR
     
     <item>
       <title>Changing AWT line thickness</title>
-      <link>http://example.com/posts/awt-graphics-changing-line-thickness/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</link>
       <pubDate>Sun, 23 Jun 2013 00:00:32 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-changing-line-thickness/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</guid>
       <description>To change the line thickness from thin bands to thicker bands, like below:
 
 Set the “stroke” size used on the Graphics2D object:
@@ -67,20 +67,20 @@ graphics2D.getStroke() and then reset it after drawing this alternative-thicknes
     
     <item>
       <title>Casting integers from objects... (and other primitives too)</title>
-      <link>http://example.com/posts/casting-integers-from-objects-and-other-primitives-too/</link>
+      <link>https://ajosephau.github.io/posts/casting-integers-from-objects-and-other-primitives-too/</link>
       <pubDate>Fri, 21 Jun 2013 00:00:37 +0000</pubDate>
       
-      <guid>http://example.com/posts/casting-integers-from-objects-and-other-primitives-too/</guid>
+      <guid>https://ajosephau.github.io/posts/casting-integers-from-objects-and-other-primitives-too/</guid>
       <description>In Java, if you are 100% sure you&amp;rsquo;ve got an Integer in the form of an Object and you want to convert it to an &amp;ldquo;int&amp;rdquo; type&amp;hellip;
 Object obj; int val = ((Integer) obj).intValue(); ```And this works with other primitive data types also.</description>
     </item>
     
     <item>
       <title>&#34;Readable&#34; Enumerations</title>
-      <link>http://example.com/posts/readable-enumerations/</link>
+      <link>https://ajosephau.github.io/posts/readable-enumerations/</link>
       <pubDate>Thu, 20 Jun 2013 00:00:23 +0000</pubDate>
       
-      <guid>http://example.com/posts/readable-enumerations/</guid>
+      <guid>https://ajosephau.github.io/posts/readable-enumerations/</guid>
       <description>It is possible to use an enumeration but to also assign a “Human Readable” version of the enumerated values.
 public enum AutofillType { NONE(&amp;quot;None&amp;quot;), CATEGORY\_1(&amp;quot;Category 1&amp;quot;), CATEGORY\_2(&amp;quot;Category 2&amp;quot;), CATEGORY\_3(&amp;quot;Category 3&amp;quot;); public final String name; private AutofillType (String name) { this.name = name; } @Override public String toString() { return name; } } Therefore, you can do something like: System.out.println(AutofillType.CATEGORY_1);
 And get the following output: Category 1
@@ -90,19 +90,19 @@ I found it was useful for creating a &#39;taxonomy&#39; style, fixed vocabulary 
     
     <item>
       <title>Sorting a HashSet</title>
-      <link>http://example.com/posts/sorting-a-hashset/</link>
+      <link>https://ajosephau.github.io/posts/sorting-a-hashset/</link>
       <pubDate>Tue, 18 Jun 2013 00:00:33 +0000</pubDate>
       
-      <guid>http://example.com/posts/sorting-a-hashset/</guid>
+      <guid>https://ajosephau.github.io/posts/sorting-a-hashset/</guid>
       <description>In Java&amp;hellip; one can use a TreeSet which is a sorted HashSet.</description>
     </item>
     
     <item>
       <title>Adding sorting to a JTable</title>
-      <link>http://example.com/posts/adding-sorting-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</link>
       <pubDate>Sun, 16 Jun 2013 02:00:39 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-sorting-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</guid>
       <description>To add buttons to a JTable’s headers so that when you click on the headers the JTable is sorted in those particular fields:
 JTable table = new JTable(); table.setAutoCreateRowSorter(true); ```This is also helpful as the underlying TableModel is not altered. But to use selected cells one needs to use the following commands:``` //for column indices table.convertColumnIndexToModel(viewColumnIndex); table.convertColumnIndexToView(modelColumnIndex); //for row indices table.convertRowIndexToModel(viewRowIndex); table.convertRowIndexToView(modelRowIndex); Note that one can also extend off “DefaultTableModel” and add other helper functions to the table model such as row counts, column counts etc.</description>
     </item>

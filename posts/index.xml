@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Anthony I. Joseph</title>
-    <link>http://example.com/posts/</link>
+    <link>https://ajosephau.github.io/posts/</link>
     <description>Recent content in Posts on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="http://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Generic Superoptimizer</title>
-      <link>http://example.com/posts/a-generic-superoptimizer/</link>
+      <link>https://ajosephau.github.io/posts/a-generic-superoptimizer/</link>
       <pubDate>Fri, 04 Mar 2016 05:48:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/a-generic-superoptimizer/</guid>
+      <guid>https://ajosephau.github.io/posts/a-generic-superoptimizer/</guid>
       <description>So I tried to publish this as a journal article, but got tired of the submission process. So here it is! Let me know if you find it interesting!
 Developing and evaluating a machine-independent, multi-objective superoptimizer  This article describes the design, development and usage of the generic, multi-objective superoptimizer. This superoptimizer generates optimal programs for any programming language that can be expressed by a context-free grammar for any objective such as finding the smallest, fastest or most energy efficient program.</description>
     </item>
     
     <item>
       <title>Advice for smart (running) girls on online privacy...</title>
-      <link>http://example.com/posts/advice-for-smart-running-girls-on-online-privacy/</link>
+      <link>https://ajosephau.github.io/posts/advice-for-smart-running-girls-on-online-privacy/</link>
       <pubDate>Tue, 20 Oct 2015 01:19:54 +0000</pubDate>
       
-      <guid>http://example.com/posts/advice-for-smart-running-girls-on-online-privacy/</guid>
+      <guid>https://ajosephau.github.io/posts/advice-for-smart-running-girls-on-online-privacy/</guid>
       <description>So not to be a &amp;lsquo;creepy Steve&amp;rsquo; a la Smart Girl&amp;rsquo;s Guide to Online Privacy (fantastic read!), but another piece of advice I&amp;rsquo;d leave for the privacy-conscious who post their photos with their running bib&amp;rsquo;s on social media (especially dating sites).
 If you go to running competition results pages, like the one for the Sydney Blackmores Running Festival (not just limited to this competition - pretty much all running events use similar results websites), you&amp;rsquo;ll see that all you need to find out someone&amp;rsquo;s name, age and in some cases suburb is their bib number&amp;hellip; So as always be wary of what you post online!</description>
     </item>
     
     <item>
       <title>Hack something first: a lesson in input validation</title>
-      <link>http://example.com/posts/hack-something-first-a-lesson-in-input-validation/</link>
+      <link>https://ajosephau.github.io/posts/hack-something-first-a-lesson-in-input-validation/</link>
       <pubDate>Mon, 19 Oct 2015 04:55:28 +0000</pubDate>
       
-      <guid>http://example.com/posts/hack-something-first-a-lesson-in-input-validation/</guid>
+      <guid>https://ajosephau.github.io/posts/hack-something-first-a-lesson-in-input-validation/</guid>
       <description>I wanted to write up a lesson I learnt from a certain app (won&amp;rsquo;t mention which one here, even though the vulnerability was reported and patched rather quickly!) that offered in-app currency if you sent your friends an SMS from your phone&amp;rsquo;s contacts to invite them to the service.
 I found that if you gave it a fake number, the app would give you the free credits, without checking if it had a 20 digit number!</description>
     </item>
     
     <item>
       <title>Migrating (or Backup/Restore) Boot Camp partitions on OSX Yosemite and older</title>
-      <link>http://example.com/posts/migrating-or-backuprestore-boot-camp-partitions/</link>
+      <link>https://ajosephau.github.io/posts/migrating-or-backuprestore-boot-camp-partitions/</link>
       <pubDate>Tue, 14 Apr 2015 06:00:25 +0000</pubDate>
       
-      <guid>http://example.com/posts/migrating-or-backuprestore-boot-camp-partitions/</guid>
+      <guid>https://ajosephau.github.io/posts/migrating-or-backuprestore-boot-camp-partitions/</guid>
       <description>Update: I tried installing the app on OSX El Capitan, and there&amp;rsquo;s a big warning about OS incompatibility&amp;hellip;
  I found a (free!) way to migrate my boot camp partition from one hard drive to another. I used Paragon&amp;rsquo;s Boot Camp Backup (http://www.paragon-software.com/home/bootcamp-backup/) and:
  create a back up of my boot camp partition from the old hard drive, installed OSX and Boot Camp Backup on the new hard drive (with a new partition for Boot Camp), In order to enable the &amp;ldquo;restore&amp;rdquo; feature, I selected the newly created Boot Camp partition as the &amp;ldquo;source&amp;rdquo; and select the &amp;ldquo;destination&amp;rdquo; as the backup image created in the first step&amp;hellip; click on the &amp;ldquo;Restore&amp;rdquo; tab and then restore the image to the new partition!</description>
@@ -50,40 +50,40 @@ I found that if you gave it a fake number, the app would give you the free cred
     
     <item>
       <title>Echo constants in batch scripts without quotes</title>
-      <link>http://example.com/posts/echo-constants-in-batch-scripts-without-quotes/</link>
+      <link>https://ajosephau.github.io/posts/echo-constants-in-batch-scripts-without-quotes/</link>
       <pubDate>Mon, 02 Feb 2015 00:54:06 +0000</pubDate>
       
-      <guid>http://example.com/posts/echo-constants-in-batch-scripts-without-quotes/</guid>
+      <guid>https://ajosephau.github.io/posts/echo-constants-in-batch-scripts-without-quotes/</guid>
       <description>Somewhat based on this Stack Overflow post, I wanted to simplify the code to echo a constrant string without the quotation marks to the console in a Windows batch script., Here&amp;rsquo;s the script to output the obligatory, &amp;ldquo;Hello world!&amp;rdquo; text
 @echo OFF SET variable=&amp;quot;Hello World!&amp;quot; ECHO %variable:&amp;quot;=% ```With the following output``` Hello World!  Comments:  Seb - Oct 1, 2018Does not work for me .. with &amp;lt; in the variable value !</description>
     </item>
     
     <item>
       <title>Installing LeJOS for Mindstorms NXT on Windows 8</title>
-      <link>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</link>
+      <link>https://ajosephau.github.io/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</link>
       <pubDate>Thu, 01 Jan 2015 06:56:47 +0000</pubDate>
       
-      <guid>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</guid>
+      <guid>https://ajosephau.github.io/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</guid>
       <description>So I had to deviate a little from the installation instructions to get LeJOS working on Windows 8, especially on a 64 bit operating system:
  Install a 32-bit version (ie x86) of Java JDK from the Oracle website:  http://www.oracle.com/technetwork/java/javase/downloads/index.html   Install the RobotC NXT drivers from the RobotC site, more than likely the 64bit version:  http://www.robotc.net/download/lego/   Install the latest LeJOS .exe version of the setup program from Sourceforge and the JDK and the drivers should be detected automatically!</description>
     </item>
     
     <item>
       <title>A basic setup for Log4j when using Freemarker</title>
-      <link>http://example.com/posts/how-to-setup-freemarker-for-log4j/</link>
+      <link>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</link>
       <pubDate>Fri, 26 Dec 2014 03:42:16 +0000</pubDate>
       
-      <guid>http://example.com/posts/how-to-setup-freemarker-for-log4j/</guid>
+      <guid>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</guid>
       <description>So I&amp;rsquo;m using Log4j in a project I&amp;rsquo;m working on, and I kept getting warnings from log4j when starting to use Freemarker&amp;hellip;
 log4j:WARN No appenders could be found for logger (freemarker.cache). log4j:WARN Please initialize the log4j system properly. log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info. ```In order to resolve these issues, I had to import the following classes:``` import freemarker.log.Logger; import org.apache.log4j.BasicConfigurator; ```...And run the following commands:``` Logger.selectLoggerLibrary(Logger.LIBRARY\_LOG4J); BasicConfigurator.configure(); ```Happy logging and templating!</description>
     </item>
     
     <item>
       <title>Monitoring a shell script (external job) running on CentOS with Jenkins</title>
-      <link>http://example.com/posts/monitoring-a-shell-script-with-jenkins-on-centos/</link>
+      <link>https://ajosephau.github.io/posts/monitoring-a-shell-script-with-jenkins-on-centos/</link>
       <pubDate>Mon, 03 Nov 2014 07:06:52 +0000</pubDate>
       
-      <guid>http://example.com/posts/monitoring-a-shell-script-with-jenkins-on-centos/</guid>
+      <guid>https://ajosephau.github.io/posts/monitoring-a-shell-script-with-jenkins-on-centos/</guid>
       <description>So I wanted to setup Jenkins external monitoring on a web server I have on a Centos VM, and I found a combination of these three blog posts worked!
  http://kvdev.wordpress.com/2012/03/01/jenkins-monitoring-external-jobs/ http://stackoverflow.com/questions/11830098/setup-jenkins-to-monitor-external-job https://gist.github.com/junaid18183/8450761  Firstly, run the following commands :``` wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo rpm &amp;ndash;import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key yum -y install jenkins
 * run the following: cd /usr/lib/jenkins unzip /usr/lib/jenkins/jenkins.war
@@ -92,30 +92,30 @@ log4j:WARN No appenders could be found for logger (freemarker.cache). log4j:WARN
     
     <item>
       <title>Deploying your own copy of Bushfire Connect</title>
-      <link>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</link>
+      <link>https://ajosephau.github.io/posts/deploying-your-own-copy-of-bushfire-connect/</link>
       <pubDate>Thu, 30 Oct 2014 06:51:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</guid>
+      <guid>https://ajosephau.github.io/posts/deploying-your-own-copy-of-bushfire-connect/</guid>
       <description>So I worked on this awesome community startup Bushfire Connect. It is with a bit of sadness that I write this, given that we shut down our service a few years ago, but I wanted to put a note here on how to redeploy Bushfire Connect on your web server.
 Please note this is a somewhat cut-down version of the Bushfire Connect we ran: all of the usernames and passwords have been stripped and a sole &amp;ldquo;admin&amp;rdquo; account is included.</description>
     </item>
     
     <item>
       <title>Installing cmdbuild on Ubuntu 14.04 LTS</title>
-      <link>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</link>
+      <link>https://ajosephau.github.io/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</link>
       <pubDate>Tue, 26 Aug 2014 06:13:39 +0000</pubDate>
       
-      <guid>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</guid>
+      <guid>https://ajosephau.github.io/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</guid>
       <description>So the instructions on the Ubuntu wiki are good, but I found I had to make some slight changes in order to get it to work on the latest (at this time!) Ubuntu LTS version (14.04). I&amp;rsquo;m not too sure how secure the server is though&amp;hellip; comments anyone? Here are the instructions I followed to get it to work
  Install ubuntu on your platform (I&amp;rsquo;m using VirtualBox). Start up the terminal app.</description>
     </item>
     
     <item>
       <title>Importing multiple intermediate certificates on Synology DSM 5.0</title>
-      <link>http://example.com/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</link>
+      <link>https://ajosephau.github.io/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</link>
       <pubDate>Fri, 11 Jul 2014 02:19:05 +0000</pubDate>
       
-      <guid>http://example.com/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</guid>
+      <guid>https://ajosephau.github.io/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</guid>
       <description>I recently bought an SSL certificate from Comodo, and when I got my certificate I also received two intermediate certificates&amp;hellip;
 The problem came when trying to import the two intermediate certificates&amp;hellip; on the Synology DSM 5.0 firmware, there&amp;rsquo;s only one field for the intermediate certificates&amp;hellip;
 
@@ -124,10 +124,10 @@ So how did I get both certificates into the one file? It&amp;rsquo;s actually re
     
     <item>
       <title>Adding sort-of cron jobs to Synology DSM 5</title>
-      <link>http://example.com/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</link>
+      <link>https://ajosephau.github.io/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</link>
       <pubDate>Wed, 02 Jul 2014 04:12:49 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</guid>
       <description>I wanted to write a cron job to run a php script, so I found a way to regularly call a php script.
 Go to the Control Panel, and click on &amp;ldquo;Task Scheduler&amp;rdquo; under &amp;ldquo;System&amp;rdquo;. Select &amp;ldquo;Create&amp;rdquo; &amp;ndash;&amp;gt; &amp;ldquo;User-defined script&amp;rdquo;.
 Under &amp;ldquo;User-defined script&amp;rdquo;, type in the following&amp;hellip;
@@ -136,10 +136,10 @@ curl &amp;quot;http://example.com/cron.php&amp;quot; ```...replacing``` &amp;quo
     
     <item>
       <title>Exporting taxonomy terms in Drupal 7</title>
-      <link>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</link>
+      <link>https://ajosephau.github.io/posts/exporting-taxonomy-terms-in-drupal-7/</link>
       <pubDate>Tue, 10 Jun 2014 04:45:40 +0000</pubDate>
       
-      <guid>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</guid>
+      <guid>https://ajosephau.github.io/posts/exporting-taxonomy-terms-in-drupal-7/</guid>
       <description>Firstly you&amp;rsquo;ll need to install the UUID Features (https://drupal.org/project/uuid_features) , Features (https://drupal.org/project/features) and UUID (https://drupal.org/project/uuid) modules.
 Once all those modules are enabled, go to example.com/admin/config/content/uuid_features (or on your administration menu go to Administration &amp;ndash;&amp;gt; Content Authoring &amp;ndash;&amp;gt; UUID Features Integration, and under &amp;ldquo;Exportable Taxonomy term bundles&amp;rdquo; check the boxes for the relevant taxonomy terms.
 Go to your features export page at example.com/admin/structure/features/ (or on your administration menu go to Administration &amp;ndash;&amp;gt; Structure &amp;ndash;&amp;gt; Features), create/recreate the feature and you&amp;rsquo;ll see &amp;ldquo;Taxonomy Terms&amp;rdquo; listed.</description>
@@ -147,19 +147,19 @@ Go to your features export page at example.com/admin/structure/features/ (or on 
     
     <item>
       <title>Adding Internode email accounts to Airmail</title>
-      <link>http://example.com/posts/adding-internode-email-accounts-to-airmail/</link>
+      <link>https://ajosephau.github.io/posts/adding-internode-email-accounts-to-airmail/</link>
       <pubDate>Mon, 17 Mar 2014 02:30:59 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-internode-email-accounts-to-airmail/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-internode-email-accounts-to-airmail/</guid>
       <description>I finally found out the settings to get Airmail to work with the Internode email service - the email address is username@internode.on.net and you use your &amp;ldquo;username&amp;rdquo; as the username for the login credentials (as you do for the account preferences). Leave the ports blank and Airmail figures out the rest!</description>
     </item>
     
     <item>
       <title>Enabling DLNA/uPnP services in the Synology DSM version 5</title>
-      <link>http://example.com/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</link>
+      <link>https://ajosephau.github.io/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</link>
       <pubDate>Thu, 13 Mar 2014 10:42:13 +0000</pubDate>
       
-      <guid>http://example.com/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</guid>
+      <guid>https://ajosephau.github.io/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</guid>
       <description>So something new I noticed in the latest Synology firmware: there&amp;rsquo;s a firewall feature now available. But I found it conflicted with my DLNA/uPnP server. So how did I fix this?
 Firstly, I restarted the &amp;ldquo;Media Server&amp;rdquo; (it&amp;rsquo;s at the Package Center, selecting the Media server and then stopping and starting the server).
 
@@ -168,20 +168,20 @@ When I started the server, the very intelligent firewall opened a prompt to let 
     
     <item>
       <title>Converting ESRI Shapefiles to CSVs using QGIS</title>
-      <link>http://example.com/posts/converting-esri-shapefiles-to-csvs-using-qgis/</link>
+      <link>https://ajosephau.github.io/posts/converting-esri-shapefiles-to-csvs-using-qgis/</link>
       <pubDate>Wed, 22 Jan 2014 11:19:13 +0000</pubDate>
       
-      <guid>http://example.com/posts/converting-esri-shapefiles-to-csvs-using-qgis/</guid>
+      <guid>https://ajosephau.github.io/posts/converting-esri-shapefiles-to-csvs-using-qgis/</guid>
       <description>So I&amp;rsquo;ve been trying to export the data from the AMSA (the digital data from https://www.operations.amsa.gov.au/Spatial/DataServices/DigitalData which contains about 1 million data points per month). And I found a way to export the shapefile&amp;rsquo;s data to a CSV file :D!
  Install QGIS from Kyngchaos for Mac users!! http://www.kyngchaos.com/software/qgis Drag the &amp;ldquo;.shp&amp;rdquo; and drop it into the &amp;ldquo;Layers&amp;rdquo; panel on the left hand panel Click on the layer and then on the menu item, and select Layers &amp;ndash;&amp;gt; Save As Select &amp;ldquo;Comma Separated Values&amp;rdquo;, and select a file to save to.</description>
     </item>
     
     <item>
       <title>Stopping iPhone/iPad (iOS) messages from repeatedly alerting you to new messages</title>
-      <link>http://example.com/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</link>
+      <link>https://ajosephau.github.io/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</link>
       <pubDate>Thu, 02 Jan 2014 11:06:50 +0000</pubDate>
       
-      <guid>http://example.com/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</guid>
+      <guid>https://ajosephau.github.io/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</guid>
       <description>So a big pain for me in iOS was how whenever I&amp;rsquo;d get a text message/iMessage it will keep on beeping at me&amp;hellip;. Well I found a way to stop this from happening by turning off &amp;ldquo;Repeat Alerts&amp;rdquo; in the Notification Settings for Messages app.
 How do you get there?
  Go to the Settings App. Select &amp;ldquo;Notification Centre&amp;rdquo;. Select &amp;ldquo;Messages&amp;rdquo;. Scroll down until you see &amp;ldquo;Repeat Alerts&amp;rdquo;.  Here&amp;rsquo;s a screen shot to show where it is :-).</description>
@@ -189,10 +189,10 @@ How do you get there?
     
     <item>
       <title>Enabling Google Plus integration into Chrome</title>
-      <link>http://example.com/posts/enabling-google-plus-integration-into-chrome/</link>
+      <link>https://ajosephau.github.io/posts/enabling-google-plus-integration-into-chrome/</link>
       <pubDate>Tue, 31 Dec 2013 09:49:02 +0000</pubDate>
       
-      <guid>http://example.com/posts/enabling-google-plus-integration-into-chrome/</guid>
+      <guid>https://ajosephau.github.io/posts/enabling-google-plus-integration-into-chrome/</guid>
       <description>I don&amp;rsquo;t know if you have ever wanted to get google plus integration into Google Chrome (so this works for Chrome Canary and for Chromium) where you can see your google plus notifications and quickly access gmail and the like&amp;hellip;.
 
 It&amp;rsquo;s rather simple!
@@ -201,30 +201,30 @@ It&amp;rsquo;s rather simple!
     
     <item>
       <title>Using HDMI Audio on a MacBook Pro</title>
-      <link>http://example.com/posts/using-hdmi-audio-on-a-macbook-pro/</link>
+      <link>https://ajosephau.github.io/posts/using-hdmi-audio-on-a-macbook-pro/</link>
       <pubDate>Sat, 21 Dec 2013 01:29:47 +0000</pubDate>
       
-      <guid>http://example.com/posts/using-hdmi-audio-on-a-macbook-pro/</guid>
+      <guid>https://ajosephau.github.io/posts/using-hdmi-audio-on-a-macbook-pro/</guid>
       <description>So I use Jaycar&amp;rsquo;s Mini DisplayPort to HDMI/DisplayPort/DVI converter (available at http://www.jaycar.com.au/productView.asp?ID=WQ7427) to connect my MacBook Pro to my TV. So getting the display to work is easy (set the TV to receive video from whichever HDMI port the laptop is connected to)&amp;hellip; but getting audio to go out of the TV instead of the MacBook Pro?
  Go to System Preferences. Click &amp;ldquo;Sound&amp;rdquo; Click &amp;ldquo;Output&amp;rdquo; And select the display.  And congratulations :-)!</description>
     </item>
     
     <item>
       <title>A HTML template for Drupal module reviews</title>
-      <link>http://example.com/posts/a-html-template-for-drupal-module-reviews/</link>
+      <link>https://ajosephau.github.io/posts/a-html-template-for-drupal-module-reviews/</link>
       <pubDate>Tue, 22 Oct 2013 02:34:24 +0000</pubDate>
       
-      <guid>http://example.com/posts/a-html-template-for-drupal-module-reviews/</guid>
+      <guid>https://ajosephau.github.io/posts/a-html-template-for-drupal-module-reviews/</guid>
       <description>&amp;hellip;. Because I am so painfully lazy, here is a template for reviewing Drupal modules following the guidance at https://drupal.org/node/1587704.
 Issues SummaryBasic application checksRepository checksSecurity reviewLicensing checksDocumentation checksCoding standardsAPI and best practices review</description>
     </item>
     
     <item>
       <title>Accessing Drupal sandbox projects via the web</title>
-      <link>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</link>
+      <link>https://ajosephau.github.io/posts/accessing-drupal-sandbox-projects-via-the-web/</link>
       <pubDate>Thu, 10 Oct 2013 10:55:13 +0000</pubDate>
       
-      <guid>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</guid>
+      <guid>https://ajosephau.github.io/posts/accessing-drupal-sandbox-projects-via-the-web/</guid>
       <description>EDIT: OK so there&amp;rsquo;s an even easier way to do this&amp;hellip; Click on &amp;ldquo;Repository viewer&amp;rdquo; on the right hand menu under the &amp;ldquo;Development&amp;rdquo; heading
 OK, so for some reason when I want to view Drupal modules I can&amp;rsquo;t access them via the usual &amp;ldquo;git clone (git_url_here)&amp;rdquo; command.
 So instead the source code can be accessed by going to drupalcode.org &amp;hellip; but how? Good question :D!
@@ -233,49 +233,49 @@ As an example, let&amp;rsquo;s say you want to check out my sandbox project htt
     
     <item>
       <title>Can&#39;t use touch screen on iPhone 4S with iOS 7?</title>
-      <link>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</link>
+      <link>https://ajosephau.github.io/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</link>
       <pubDate>Mon, 07 Oct 2013 20:38:37 +0000</pubDate>
       
-      <guid>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</guid>
+      <guid>https://ajosephau.github.io/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</guid>
       <description>When is the worst time to lose access to your touch screen on your iPhone? That&amp;rsquo;s right, when you&amp;rsquo;re getting that important phone call, text message or want to take a photo of something&amp;hellip;
 Anyways, a soft reset (press and hold the home and lock buttons for about 5-10 seconds) and it was back to normal :-)!</description>
     </item>
     
     <item>
       <title>Improving iOS 7 performance on iPhone 4S</title>
-      <link>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</link>
+      <link>https://ajosephau.github.io/posts/improving-ios-7-performance-on-iphone-4s/</link>
       <pubDate>Wed, 25 Sep 2013 06:32:35 +0000</pubDate>
       
-      <guid>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</guid>
+      <guid>https://ajosephau.github.io/posts/improving-ios-7-performance-on-iphone-4s/</guid>
       <description>So I have more adventure in getting iOS 7 on my iPhone 4S: I found that when I would unlock my phone or browse the home screen the user interface would have some lag and be slow to respond.
 I think it&amp;rsquo;s because of the new wallpaper settings that move when you tilt the phone&amp;hellip; (and it changed my wallpapers that didn&amp;rsquo;t fit my screen&amp;rsquo;s resolution like it did in iOS 6.</description>
     </item>
     
     <item>
       <title>Problems syncing music in iOS 7.0</title>
-      <link>http://example.com/posts/problems-syncing-music-in-ios-7-0/</link>
+      <link>https://ajosephau.github.io/posts/problems-syncing-music-in-ios-7-0/</link>
       <pubDate>Fri, 20 Sep 2013 07:55:02 +0000</pubDate>
       
-      <guid>http://example.com/posts/problems-syncing-music-in-ios-7-0/</guid>
+      <guid>https://ajosephau.github.io/posts/problems-syncing-music-in-ios-7-0/</guid>
       <description>Being a little too eager, I upgraded my iPhone to the latest iOS 7 version&amp;hellip;. but had issues trying to sync my music collection&amp;hellip;. basically I would sync my music and somewhere into the process it would stop unexpectedly, saying &amp;ldquo;Cancelling sync&amp;rdquo;.
 I found that I had some songs had text in the comments field and characters like &amp;ldquo;「&amp;rdquo; and &amp;ldquo;」&amp;rdquo; - after removing them all my songs synchronised perfectly!</description>
     </item>
     
     <item>
       <title>A quick way to import Natural Earth raster images to GeoServer</title>
-      <link>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</link>
+      <link>https://ajosephau.github.io/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</link>
       <pubDate>Sat, 24 Aug 2013 12:02:34 +0000</pubDate>
       
-      <guid>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</guid>
+      <guid>https://ajosephau.github.io/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</guid>
       <description>Start up your GeoServer instance and log in as an admin. Go to Data &amp;ndash;&amp;gt; Workplaces. Click &amp;ldquo;Add new workplace&amp;rdquo;. Enter a new name and URI. Go to Data &amp;ndash;&amp;gt; Stores Click &amp;ldquo;Add new Store&amp;rdquo; Click &amp;ldquo;WorldImage&amp;rdquo; (under Raster Data Sources) Create a data source name and select the tiff file you want to upload. Under &amp;ldquo;Coordinate Reference Systems&amp;rdquo;, pick one like &amp;ldquo;900913&amp;rdquo; (don&amp;rsquo;t know which one to use, but this one works?</description>
     </item>
     
     <item>
       <title>Paging queries (or querying large amounts of data) from a MySQL database in Java</title>
-      <link>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</link>
+      <link>https://ajosephau.github.io/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</link>
       <pubDate>Mon, 19 Aug 2013 11:26:22 +0000</pubDate>
       
-      <guid>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</guid>
+      <guid>https://ajosephau.github.io/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</guid>
       <description>So I was trying to run a query of a large number of rows on a MySQL database using Java MySQL JDBC connectors, and I couldn&amp;rsquo;t find an easy way to do this&amp;hellip; so once I found out, I thought I&amp;rsquo;d post it here!
 Connection existingDBConn = DriverManager.getConnection(&amp;quot;jdbc:mysql://databaseServerName:3306/databaseName&amp;quot;,&amp;quot;username&amp;quot;,&amp;quot;password&amp;quot;); Statement selectStatement = null; selectStatement = existingDBConn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY); selectStatement.setAutoCommit(false); selectStatement.setFetchSize(Integer.MIN_VALUE);
 if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStatement.getResultSet(); while (selectResultSet.next()) { System.out.println(selectResultSet.getString(1));// and so on.</description>
@@ -283,30 +283,30 @@ if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStat
     
     <item>
       <title>Creating MySQL views in phpMyAdmin</title>
-      <link>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</link>
+      <link>https://ajosephau.github.io/posts/creating-mysql-views-in-phpmyadmin/</link>
       <pubDate>Mon, 19 Aug 2013 03:08:06 +0000</pubDate>
       
-      <guid>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</guid>
+      <guid>https://ajosephau.github.io/posts/creating-mysql-views-in-phpmyadmin/</guid>
       <description>I saw lots of various answers to this question, but I thought I might share a quick and easy way of doing this I stumbled upon!
  Select your database Click on the SQL tab and run the query you want to power your view Under &amp;ldquo;query results operations&amp;rdquo;, select &amp;ldquo;create view&amp;rdquo;. You will see your brand new view if you click on the &amp;ldquo;structure&amp;rdquo; tab for the database  </description>
     </item>
     
     <item>
       <title>comment_comment_docblock_missing Drupal 7 Coder module</title>
-      <link>http://example.com/posts/comment_comment_docblock_missing-drupal-7-coder-module/</link>
+      <link>https://ajosephau.github.io/posts/comment_comment_docblock_missing-drupal-7-coder-module/</link>
       <pubDate>Tue, 30 Jul 2013 06:18:47 +0000</pubDate>
       
-      <guid>http://example.com/posts/comment_comment_docblock_missing-drupal-7-coder-module/</guid>
+      <guid>https://ajosephau.github.io/posts/comment_comment_docblock_missing-drupal-7-coder-module/</guid>
       <description>Ever get a minor warning for &amp;ldquo;comment_comment_docblock_missing&amp;rdquo; when using Drupal 7 Coder module? Even when you have included a docblock?!?
 I found it was my file encoding - I had it set to Windows instead of Linux files :-(. Serves me right for developing on an XP machine!</description>
     </item>
     
     <item>
       <title>A simple way to create arrays for Drupal testing</title>
-      <link>http://example.com/posts/a-simple-way-to-create-arrays-for-drupal-testing/</link>
+      <link>https://ajosephau.github.io/posts/a-simple-way-to-create-arrays-for-drupal-testing/</link>
       <pubDate>Tue, 30 Jul 2013 00:08:44 +0000</pubDate>
       
-      <guid>http://example.com/posts/a-simple-way-to-create-arrays-for-drupal-testing/</guid>
+      <guid>https://ajosephau.github.io/posts/a-simple-way-to-create-arrays-for-drupal-testing/</guid>
       <description>So after not playing Company of Heroes&amp;hellip;. I&amp;rsquo;m back on Drupal module development, in particular how to create tests as quickly as possible.
 I found two things:
 You can print out php arrays, classes etc pretty easily by using the &amp;ldquo;var_export($array,TRUE)&amp;rdquo; function (thanks Stack overflow! stackoverflow.com/questions/6759864/how-to-create-an-array-from-var-dump-result )
@@ -316,40 +316,40 @@ Now there&amp;rsquo;s no excuse for not testing your code :-)!</description>
     
     <item>
       <title>Restarting Apple App Store downloads</title>
-      <link>http://example.com/posts/restarting-apple-app-store-downloads/</link>
+      <link>https://ajosephau.github.io/posts/restarting-apple-app-store-downloads/</link>
       <pubDate>Tue, 23 Jul 2013 21:50:07 +0000</pubDate>
       
-      <guid>http://example.com/posts/restarting-apple-app-store-downloads/</guid>
+      <guid>https://ajosephau.github.io/posts/restarting-apple-app-store-downloads/</guid>
       <description>I was trying to download Company of Heroes for mac osx, and having a slow Internet :/ meant the app download fails with &amp;ldquo;an error occurred&amp;rdquo;.
 But why doesn&amp;rsquo;t the &amp;ldquo;restart&amp;rdquo; button work?!? I found going to Finder, attempting to cancel the download opens up the App Store asking you to cancel or continue the download. And continuing seems to work!!</description>
     </item>
     
     <item>
       <title>Adding filtering to a JTable</title>
-      <link>http://example.com/posts/adding-filtering-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-filtering-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</guid>
       <description>To filter out rows in a JTable, you will need to add a RowFilter (javax.swing.RowFilter). This row filter takes a table model and an object that correspond to an entry in the model.
 RowFilter&amp;lt;object,object&amp;gt; startsWithAFilter = new RowFilter&amp;lt;object,object&amp;gt;() { public boolean include(Entry entry) { for (int i = entry.getValueCount() - 1; i &amp;gt;= 0; i--) { if (entry.getStringValue(i).startsWith(&amp;quot;a&amp;quot;)) { // The value starts with &amp;quot;a&amp;quot;, include it return true; } } // None of the columns start with &amp;quot;a&amp;quot; // return false so that this // entry is not shown return false; } }; ```There are a few types of RowFilters available, like a generic “include” filter (so you specify which rows are to be included), a number/date/regex filter (which are specific RowFilter types) and an AND/OR/NOT filter to combine different row filters together.</description>
     </item>
     
     <item>
       <title>Interfacing Matlab to Java applications</title>
-      <link>http://example.com/posts/interfacing-matlab-to-java-applications/</link>
+      <link>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/posts/interfacing-matlab-to-java-applications/</guid>
+      <guid>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</guid>
       <description>For existing projects:
  Open Matlab. Navigate to the directory holding the Matlab project, and open the project file (going by the extension &amp;ldquo;.prj&amp;rdquo;). The &amp;ldquo;Deployment Tool&amp;rdquo; (which can be opened by typing &amp;ldquo;deploytool&amp;rdquo; in the prompt) will be opened. If you are updating files, drag the Matlab files off the &amp;ldquo;Classes&amp;rdquo; list and drag the Matlab files onto the &amp;ldquo;Classes&amp;rdquo; list. Click on :  &amp;ldquo;Build&amp;rdquo; icon to make a &amp;ldquo;Jar&amp;rdquo; file of the compiled Matlab files or &amp;ldquo;Package&amp;rdquo; icon to make a self extracting executable of the Jar file, Javadoc files and a readme file.</description>
     </item>
     
     <item>
       <title>Good Java tutorials and technologies....</title>
-      <link>http://example.com/posts/good-java-tutorials-and-technologies/</link>
+      <link>https://ajosephau.github.io/posts/good-java-tutorials-and-technologies/</link>
       <pubDate>Sat, 29 Jun 2013 00:00:06 +0000</pubDate>
       
-      <guid>http://example.com/posts/good-java-tutorials-and-technologies/</guid>
+      <guid>https://ajosephau.github.io/posts/good-java-tutorials-and-technologies/</guid>
       <description>So I&amp;rsquo;ll keep this updated over time&amp;hellip; but for now:
 Technologies
 - OpenMap: A Java GIS tool. A friend Martin T. (thanks Martin!!) suggests GeoTools as an alternate Java-based framework for GIS&amp;hellip; - GeographicLib a promising looking library for converting between coordinate systems.
@@ -359,10 +359,10 @@ Tutorials
     
     <item>
       <title>Alternating AWT graphics colour</title>
-      <link>http://example.com/posts/awt-graphics-alternating-graphics-colour/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</link>
       <pubDate>Wed, 26 Jun 2013 00:00:03 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-alternating-graphics-colour/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</guid>
       <description>It is possible to draw 2D colours in such a way that it inverts colours behind it, like in the screenshot below:
 
 This can be done by enabling “XOR Colour mode” and by using&amp;hellip;
@@ -371,10 +371,10 @@ Color.WHITE ```...this is because white has an RGB value of 255,255,255, and XOR
     
     <item>
       <title>Adding a configure link to a Drupal module</title>
-      <link>http://example.com/posts/adding-a-configure-link-to-a-drupal-module/</link>
+      <link>https://ajosephau.github.io/posts/adding-a-configure-link-to-a-drupal-module/</link>
       <pubDate>Tue, 25 Jun 2013 01:22:25 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-a-configure-link-to-a-drupal-module/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-a-configure-link-to-a-drupal-module/</guid>
       <description>If you want to add a &amp;ldquo;Configure&amp;rdquo; link to a module&amp;rsquo;s entry in the &amp;lsquo;Administration &amp;raquo; Modules&amp;rsquo; page, add the following line to a module&amp;rsquo;s &amp;ldquo;.info&amp;rdquo; file:
  configure = path/to/admin/page
  This path&amp;rsquo;ll be in your hook_menu() implementation.
@@ -383,10 +383,10 @@ Thanks to this bug report I found https://drupal.org/node/1582464</description>
     
     <item>
       <title>Changing AWT line thickness</title>
-      <link>http://example.com/posts/awt-graphics-changing-line-thickness/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</link>
       <pubDate>Sun, 23 Jun 2013 00:00:32 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-changing-line-thickness/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</guid>
       <description>To change the line thickness from thin bands to thicker bands, like below:
 
 Set the “stroke” size used on the Graphics2D object:
@@ -396,20 +396,20 @@ graphics2D.getStroke() and then reset it after drawing this alternative-thicknes
     
     <item>
       <title>Casting integers from objects... (and other primitives too)</title>
-      <link>http://example.com/posts/casting-integers-from-objects-and-other-primitives-too/</link>
+      <link>https://ajosephau.github.io/posts/casting-integers-from-objects-and-other-primitives-too/</link>
       <pubDate>Fri, 21 Jun 2013 00:00:37 +0000</pubDate>
       
-      <guid>http://example.com/posts/casting-integers-from-objects-and-other-primitives-too/</guid>
+      <guid>https://ajosephau.github.io/posts/casting-integers-from-objects-and-other-primitives-too/</guid>
       <description>In Java, if you are 100% sure you&amp;rsquo;ve got an Integer in the form of an Object and you want to convert it to an &amp;ldquo;int&amp;rdquo; type&amp;hellip;
 Object obj; int val = ((Integer) obj).intValue(); ```And this works with other primitive data types also.</description>
     </item>
     
     <item>
       <title>&#34;Readable&#34; Enumerations</title>
-      <link>http://example.com/posts/readable-enumerations/</link>
+      <link>https://ajosephau.github.io/posts/readable-enumerations/</link>
       <pubDate>Thu, 20 Jun 2013 00:00:23 +0000</pubDate>
       
-      <guid>http://example.com/posts/readable-enumerations/</guid>
+      <guid>https://ajosephau.github.io/posts/readable-enumerations/</guid>
       <description>It is possible to use an enumeration but to also assign a “Human Readable” version of the enumerated values.
 public enum AutofillType { NONE(&amp;quot;None&amp;quot;), CATEGORY\_1(&amp;quot;Category 1&amp;quot;), CATEGORY\_2(&amp;quot;Category 2&amp;quot;), CATEGORY\_3(&amp;quot;Category 3&amp;quot;); public final String name; private AutofillType (String name) { this.name = name; } @Override public String toString() { return name; } } Therefore, you can do something like: System.out.println(AutofillType.CATEGORY_1);
 And get the following output: Category 1
@@ -419,29 +419,29 @@ I found it was useful for creating a &#39;taxonomy&#39; style, fixed vocabulary 
     
     <item>
       <title>Sorting a HashSet</title>
-      <link>http://example.com/posts/sorting-a-hashset/</link>
+      <link>https://ajosephau.github.io/posts/sorting-a-hashset/</link>
       <pubDate>Tue, 18 Jun 2013 00:00:33 +0000</pubDate>
       
-      <guid>http://example.com/posts/sorting-a-hashset/</guid>
+      <guid>https://ajosephau.github.io/posts/sorting-a-hashset/</guid>
       <description>In Java&amp;hellip; one can use a TreeSet which is a sorted HashSet.</description>
     </item>
     
     <item>
       <title>It&#39;s important! Overriding CSS commands with the important keyword</title>
-      <link>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</link>
+      <link>https://ajosephau.github.io/posts/its-important-overriding-css-commands-with-the-important-keyword/</link>
       <pubDate>Mon, 17 Jun 2013 04:17:36 +0000</pubDate>
       
-      <guid>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</guid>
+      <guid>https://ajosephau.github.io/posts/its-important-overriding-css-commands-with-the-important-keyword/</guid>
       <description>You can use the !important keyword to override previously run CSS directives! Interesting, right?
 More information at: http://en.m.wikibooks.org/wiki/Cascading_Style_Sheets/Important</description>
     </item>
     
     <item>
       <title>Using em&#39;s as a unit of measure</title>
-      <link>http://example.com/posts/using-ems-as-a-unit-of-measure/</link>
+      <link>https://ajosephau.github.io/posts/using-ems-as-a-unit-of-measure/</link>
       <pubDate>Mon, 17 Jun 2013 02:35:05 +0000</pubDate>
       
-      <guid>http://example.com/posts/using-ems-as-a-unit-of-measure/</guid>
+      <guid>https://ajosephau.github.io/posts/using-ems-as-a-unit-of-measure/</guid>
       <description>Doing measurements in CSS? Maybe consider using em&amp;rsquo;s as a measure of unit instead of pixels&amp;hellip; So all units are related to a pixel size, not a specific pixel measure&amp;hellip;
 The Wikipedia article has some good notes..
 en.m.wikipedia.org/wiki/Em_(typography)</description>
@@ -449,10 +449,10 @@ en.m.wikipedia.org/wiki/Em_(typography)</description>
     
     <item>
       <title>Inserting tags in HEAD section of a Drupal page</title>
-      <link>http://example.com/posts/inserting-tags-in-head-section-of-a-drupal-page/</link>
+      <link>https://ajosephau.github.io/posts/inserting-tags-in-head-section-of-a-drupal-page/</link>
       <pubDate>Sun, 16 Jun 2013 13:25:33 +0000</pubDate>
       
-      <guid>http://example.com/posts/inserting-tags-in-head-section-of-a-drupal-page/</guid>
+      <guid>https://ajosephau.github.io/posts/inserting-tags-in-head-section-of-a-drupal-page/</guid>
       <description>The &amp;ldquo;hook_html_head_alter()&amp;rdquo; can let you add tags to the HEAD section of a Drupal page. Despite some of the comments, I found that if you need to put it into a module in Drupal 7, you do need to name the hook after the module&amp;rsquo;s name, instead of just &amp;ldquo;template_&amp;rdquo;&amp;hellip;.
 If you want to build tags&amp;hellip; the Drupal way :-P&amp;hellip; try the function theme_html_tag().
 I found this was useful for a module I was writing&amp;hellip; stay tuned people :-).</description>
@@ -460,29 +460,29 @@ I found this was useful for a module I was writing&amp;hellip; stay tuned people
     
     <item>
       <title>Adding sorting to a JTable</title>
-      <link>http://example.com/posts/adding-sorting-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</link>
       <pubDate>Sun, 16 Jun 2013 02:00:39 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-sorting-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</guid>
       <description>To add buttons to a JTable’s headers so that when you click on the headers the JTable is sorted in those particular fields:
 JTable table = new JTable(); table.setAutoCreateRowSorter(true); ```This is also helpful as the underlying TableModel is not altered. But to use selected cells one needs to use the following commands:``` //for column indices table.convertColumnIndexToModel(viewColumnIndex); table.convertColumnIndexToView(modelColumnIndex); //for row indices table.convertRowIndexToModel(viewRowIndex); table.convertRowIndexToView(modelRowIndex); Note that one can also extend off “DefaultTableModel” and add other helper functions to the table model such as row counts, column counts etc.</description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>http://example.com/posts/home/</link>
+      <link>https://ajosephau.github.io/posts/home/</link>
       <pubDate>Thu, 13 Jun 2013 10:59:09 +0000</pubDate>
       
-      <guid>http://example.com/posts/home/</guid>
+      <guid>https://ajosephau.github.io/posts/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Including a CSS file in another CSS file</title>
-      <link>http://example.com/posts/including-a-css-file-in-another-file/</link>
+      <link>https://ajosephau.github.io/posts/including-a-css-file-in-another-file/</link>
       <pubDate>Wed, 12 Jun 2013 23:06:38 +0000</pubDate>
       
-      <guid>http://example.com/posts/including-a-css-file-in-another-file/</guid>
+      <guid>https://ajosephau.github.io/posts/including-a-css-file-in-another-file/</guid>
       <description>Use the line &amp;ldquo;@import url(file.css);&amp;rdquo;.
 Apparently this needs to be the first line in a CSS file. Don&amp;rsquo;t forget the final semi-colon like I did :/&amp;hellip;
 Thanks Stack Overflow!

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MySQL on Anthony I. Joseph</title>
-    <link>http://example.com/tags/mysql/</link>
+    <link>https://ajosephau.github.io/tags/mysql/</link>
     <description>Recent content in MySQL on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 19 Aug 2013 11:26:22 +0000</lastBuildDate><atom:link href="http://example.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Aug 2013 11:26:22 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paging queries (or querying large amounts of data) from a MySQL database in Java</title>
-      <link>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</link>
+      <link>https://ajosephau.github.io/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</link>
       <pubDate>Mon, 19 Aug 2013 11:26:22 +0000</pubDate>
       
-      <guid>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</guid>
+      <guid>https://ajosephau.github.io/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</guid>
       <description>So I was trying to run a query of a large number of rows on a MySQL database using Java MySQL JDBC connectors, and I couldn&amp;rsquo;t find an easy way to do this&amp;hellip; so once I found out, I thought I&amp;rsquo;d post it here!
 Connection existingDBConn = DriverManager.getConnection(&amp;quot;jdbc:mysql://databaseServerName:3306/databaseName&amp;quot;,&amp;quot;username&amp;quot;,&amp;quot;password&amp;quot;); Statement selectStatement = null; selectStatement = existingDBConn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_READ_ONLY); selectStatement.setAutoCommit(false); selectStatement.setFetchSize(Integer.MIN_VALUE);
 if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStatement.getResultSet(); while (selectResultSet.next()) { System.out.println(selectResultSet.getString(1));// and so on.</description>
@@ -20,10 +20,10 @@ if (selectStatement.execute(selectSqlQuery)) { do { selectResultSet = selectStat
     
     <item>
       <title>Creating MySQL views in phpMyAdmin</title>
-      <link>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</link>
+      <link>https://ajosephau.github.io/posts/creating-mysql-views-in-phpmyadmin/</link>
       <pubDate>Mon, 19 Aug 2013 03:08:06 +0000</pubDate>
       
-      <guid>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</guid>
+      <guid>https://ajosephau.github.io/posts/creating-mysql-views-in-phpmyadmin/</guid>
       <description>I saw lots of various answers to this question, but I thought I might share a quick and easy way of doing this I stumbled upon!
  Select your database Click on the SQL tab and run the query you want to power your view Under &amp;ldquo;query results operations&amp;rdquo;, select &amp;ldquo;create view&amp;rdquo;. You will see your brand new view if you click on the &amp;ldquo;structure&amp;rdquo; tab for the database  </description>
     </item>

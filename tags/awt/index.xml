@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWT on Anthony I. Joseph</title>
-    <link>http://example.com/tags/awt/</link>
+    <link>https://ajosephau.github.io/tags/awt/</link>
     <description>Recent content in AWT on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 26 Jun 2013 00:00:03 +0000</lastBuildDate><atom:link href="http://example.com/tags/awt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2013 00:00:03 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/awt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alternating AWT graphics colour</title>
-      <link>http://example.com/posts/awt-graphics-alternating-graphics-colour/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</link>
       <pubDate>Wed, 26 Jun 2013 00:00:03 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-alternating-graphics-colour/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</guid>
       <description>It is possible to draw 2D colours in such a way that it inverts colours behind it, like in the screenshot below:
 
 This can be done by enabling “XOR Colour mode” and by using&amp;hellip;
@@ -21,10 +21,10 @@ Color.WHITE ```...this is because white has an RGB value of 255,255,255, and XOR
     
     <item>
       <title>Changing AWT line thickness</title>
-      <link>http://example.com/posts/awt-graphics-changing-line-thickness/</link>
+      <link>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</link>
       <pubDate>Sun, 23 Jun 2013 00:00:32 +0000</pubDate>
       
-      <guid>http://example.com/posts/awt-graphics-changing-line-thickness/</guid>
+      <guid>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</guid>
       <description>To change the line thickness from thin bands to thicker bands, like below:
 
 Set the “stroke” size used on the Graphics2D object:
