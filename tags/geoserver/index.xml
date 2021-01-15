@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GeoServer on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/geoserver/</link>
+    <link>http://example.com/tags/geoserver/</link>
     <description>Recent content in GeoServer on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sat, 24 Aug 2013 12:02:34 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Aug 2013 12:02:34 +0000</lastBuildDate><atom:link href="http://example.com/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A quick way to import Natural Earth raster images to GeoServer</title>
-      <link>https://ajosephau.github.io/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</link>
+      <link>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</link>
       <pubDate>Sat, 24 Aug 2013 12:02:34 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</guid>
+      <guid>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</guid>
       <description>Start up your GeoServer instance and log in as an admin. Go to Data &amp;ndash;&amp;gt; Workplaces. Click &amp;ldquo;Add new workplace&amp;rdquo;. Enter a new name and URI. Go to Data &amp;ndash;&amp;gt; Stores Click &amp;ldquo;Add new Store&amp;rdquo; Click &amp;ldquo;WorldImage&amp;rdquo; (under Raster Data Sources) Create a data source name and select the tiff file you want to upload. Under &amp;ldquo;Coordinate Reference Systems&amp;rdquo;, pick one like &amp;ldquo;900913&amp;rdquo; (don&amp;rsquo;t know which one to use, but this one works?</description>
     </item>
     

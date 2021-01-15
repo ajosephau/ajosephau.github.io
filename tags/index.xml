@@ -2,269 +2,269 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/</link>
+    <link>http://example.com/tags/</link>
     <description>Recent content in Tags on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Superoptimizer</title>
-      <link>https://ajosephau.github.io/tags/superoptimizer/</link>
+      <link>http://example.com/tags/superoptimizer/</link>
       <pubDate>Fri, 04 Mar 2016 05:48:00 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/superoptimizer/</guid>
+      <guid>http://example.com/tags/superoptimizer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Infosec</title>
-      <link>https://ajosephau.github.io/tags/infosec/</link>
+      <link>http://example.com/tags/infosec/</link>
       <pubDate>Tue, 20 Oct 2015 01:19:54 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/infosec/</guid>
+      <guid>http://example.com/tags/infosec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://ajosephau.github.io/tags/web/</link>
+      <link>http://example.com/tags/web/</link>
       <pubDate>Tue, 20 Oct 2015 01:19:54 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/web/</guid>
+      <guid>http://example.com/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://ajosephau.github.io/tags/programming/</link>
+      <link>http://example.com/tags/programming/</link>
       <pubDate>Mon, 19 Oct 2015 04:55:28 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/programming/</guid>
+      <guid>http://example.com/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Systems Administration</title>
-      <link>https://ajosephau.github.io/tags/systems-administration/</link>
+      <link>http://example.com/tags/systems-administration/</link>
       <pubDate>Mon, 19 Oct 2015 04:55:28 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/systems-administration/</guid>
+      <guid>http://example.com/tags/systems-administration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OSX</title>
-      <link>https://ajosephau.github.io/tags/osx/</link>
+      <link>http://example.com/tags/osx/</link>
       <pubDate>Tue, 14 Apr 2015 06:00:25 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/osx/</guid>
+      <guid>http://example.com/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://ajosephau.github.io/tags/windows/</link>
+      <link>http://example.com/tags/windows/</link>
       <pubDate>Mon, 02 Feb 2015 00:54:06 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/windows/</guid>
+      <guid>http://example.com/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lego NXT</title>
-      <link>https://ajosephau.github.io/tags/lego-nxt/</link>
+      <link>http://example.com/tags/lego-nxt/</link>
       <pubDate>Thu, 01 Jan 2015 06:56:47 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/lego-nxt/</guid>
+      <guid>http://example.com/tags/lego-nxt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LeJOS</title>
-      <link>https://ajosephau.github.io/tags/lejos/</link>
+      <link>http://example.com/tags/lejos/</link>
       <pubDate>Thu, 01 Jan 2015 06:56:47 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/lejos/</guid>
+      <guid>http://example.com/tags/lejos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Freemarker</title>
-      <link>https://ajosephau.github.io/tags/freemarker/</link>
+      <link>http://example.com/tags/freemarker/</link>
       <pubDate>Fri, 26 Dec 2014 03:42:16 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/freemarker/</guid>
+      <guid>http://example.com/tags/freemarker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>log4j</title>
-      <link>https://ajosephau.github.io/tags/log4j/</link>
+      <link>http://example.com/tags/log4j/</link>
       <pubDate>Fri, 26 Dec 2014 03:42:16 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/log4j/</guid>
+      <guid>http://example.com/tags/log4j/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bushfire Connect</title>
-      <link>https://ajosephau.github.io/tags/bushfire-connect/</link>
+      <link>http://example.com/tags/bushfire-connect/</link>
       <pubDate>Thu, 30 Oct 2014 06:51:00 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/bushfire-connect/</guid>
+      <guid>http://example.com/tags/bushfire-connect/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DSM</title>
-      <link>https://ajosephau.github.io/tags/dsm/</link>
+      <link>http://example.com/tags/dsm/</link>
       <pubDate>Fri, 11 Jul 2014 02:19:05 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/dsm/</guid>
+      <guid>http://example.com/tags/dsm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Synology</title>
-      <link>https://ajosephau.github.io/tags/synology/</link>
+      <link>http://example.com/tags/synology/</link>
       <pubDate>Wed, 02 Jul 2014 04:12:49 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/synology/</guid>
+      <guid>http://example.com/tags/synology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Drupal 7</title>
-      <link>https://ajosephau.github.io/tags/drupal-7/</link>
+      <link>http://example.com/tags/drupal-7/</link>
       <pubDate>Tue, 10 Jun 2014 04:45:40 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/drupal-7/</guid>
+      <guid>http://example.com/tags/drupal-7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>QGIS</title>
-      <link>https://ajosephau.github.io/tags/qgis/</link>
+      <link>http://example.com/tags/qgis/</link>
       <pubDate>Wed, 22 Jan 2014 11:19:13 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/qgis/</guid>
+      <guid>http://example.com/tags/qgis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iOS</title>
-      <link>https://ajosephau.github.io/tags/ios/</link>
+      <link>http://example.com/tags/ios/</link>
       <pubDate>Thu, 02 Jan 2014 11:06:50 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/ios/</guid>
+      <guid>http://example.com/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chrome</title>
-      <link>https://ajosephau.github.io/tags/chrome/</link>
+      <link>http://example.com/tags/chrome/</link>
       <pubDate>Tue, 31 Dec 2013 09:49:02 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/chrome/</guid>
+      <guid>http://example.com/tags/chrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Module development</title>
-      <link>https://ajosephau.github.io/tags/module-development/</link>
+      <link>http://example.com/tags/module-development/</link>
       <pubDate>Tue, 22 Oct 2013 02:34:24 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/module-development/</guid>
+      <guid>http://example.com/tags/module-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iPhone</title>
-      <link>https://ajosephau.github.io/tags/iphone/</link>
+      <link>http://example.com/tags/iphone/</link>
       <pubDate>Mon, 07 Oct 2013 20:38:37 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/iphone/</guid>
+      <guid>http://example.com/tags/iphone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GeoServer</title>
-      <link>https://ajosephau.github.io/tags/geoserver/</link>
+      <link>http://example.com/tags/geoserver/</link>
       <pubDate>Sat, 24 Aug 2013 12:02:34 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/geoserver/</guid>
+      <guid>http://example.com/tags/geoserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>https://ajosephau.github.io/tags/mysql/</link>
+      <link>http://example.com/tags/mysql/</link>
       <pubDate>Mon, 19 Aug 2013 11:26:22 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/mysql/</guid>
+      <guid>http://example.com/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://ajosephau.github.io/tags/java/</link>
+      <link>http://example.com/tags/java/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/java/</guid>
+      <guid>http://example.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Swing</title>
-      <link>https://ajosephau.github.io/tags/swing/</link>
+      <link>http://example.com/tags/swing/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/swing/</guid>
+      <guid>http://example.com/tags/swing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UI</title>
-      <link>https://ajosephau.github.io/tags/ui/</link>
+      <link>http://example.com/tags/ui/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/ui/</guid>
+      <guid>http://example.com/tags/ui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matlab</title>
-      <link>https://ajosephau.github.io/tags/matlab/</link>
+      <link>http://example.com/tags/matlab/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/matlab/</guid>
+      <guid>http://example.com/tags/matlab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWT</title>
-      <link>https://ajosephau.github.io/tags/awt/</link>
+      <link>http://example.com/tags/awt/</link>
       <pubDate>Wed, 26 Jun 2013 00:00:03 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/awt/</guid>
+      <guid>http://example.com/tags/awt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>https://ajosephau.github.io/tags/css/</link>
+      <link>http://example.com/tags/css/</link>
       <pubDate>Mon, 17 Jun 2013 04:17:36 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/css/</guid>
+      <guid>http://example.com/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Menu</title>
-      <link>https://ajosephau.github.io/tags/menu/</link>
+      <link>http://example.com/tags/menu/</link>
       <pubDate>Thu, 13 Jun 2013 10:59:09 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/tags/menu/</guid>
+      <guid>http://example.com/tags/menu/</guid>
       <description></description>
     </item>
     

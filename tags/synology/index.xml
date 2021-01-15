@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Synology on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/synology/</link>
+    <link>http://example.com/tags/synology/</link>
     <description>Recent content in Synology on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 02 Jul 2014 04:12:49 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/synology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jul 2014 04:12:49 +0000</lastBuildDate><atom:link href="http://example.com/tags/synology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding sort-of cron jobs to Synology DSM 5</title>
-      <link>https://ajosephau.github.io/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</link>
+      <link>http://example.com/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</link>
       <pubDate>Wed, 02 Jul 2014 04:12:49 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</guid>
+      <guid>http://example.com/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</guid>
       <description>I wanted to write a cron job to run a php script, so I found a way to regularly call a php script.
 Go to the Control Panel, and click on &amp;ldquo;Task Scheduler&amp;rdquo; under &amp;ldquo;System&amp;rdquo;. Select &amp;ldquo;Create&amp;rdquo; &amp;ndash;&amp;gt; &amp;ldquo;User-defined script&amp;rdquo;.
 Under &amp;ldquo;User-defined script&amp;rdquo;, type in the following&amp;hellip;
-curl &amp;quot;http://example.com/cron.php&amp;quot; ```...replacing``` &amp;quot;http://example.com/cron.php&amp;quot; ```with whatever script you run. I&#39;ve found it seems to work well with regular cron jobs like a Dynamic DNS (DDNS) update.</description>
+curl &amp;quot;http://example.com/cron.php&amp;quot;```...replacing```&amp;quot;http://example.com/cron.php&amp;quot;```with whatever script you run. I&#39;ve found it seems to work well with regular cron jobs like a Dynamic DNS (DDNS) update.</description>
     </item>
     
     <item>
       <title>Enabling DLNA/uPnP services in the Synology DSM version 5</title>
-      <link>https://ajosephau.github.io/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</link>
+      <link>http://example.com/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</link>
       <pubDate>Thu, 13 Mar 2014 10:42:13 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</guid>
+      <guid>http://example.com/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</guid>
       <description>So something new I noticed in the latest Synology firmware: there&amp;rsquo;s a firewall feature now available. But I found it conflicted with my DLNA/uPnP server. So how did I fix this?
 Firstly, I restarted the &amp;ldquo;Media Server&amp;rdquo; (it&amp;rsquo;s at the Package Center, selecting the Media server and then stopping and starting the server).
 

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OSX on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/osx/</link>
+    <link>http://example.com/tags/osx/</link>
     <description>Recent content in OSX on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 14 Apr 2015 06:00:25 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2015 06:00:25 +0000</lastBuildDate><atom:link href="http://example.com/tags/osx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating (or Backup/Restore) Boot Camp partitions on OSX Yosemite and older</title>
-      <link>https://ajosephau.github.io/posts/migrating-or-backuprestore-boot-camp-partitions/</link>
+      <link>http://example.com/posts/migrating-or-backuprestore-boot-camp-partitions/</link>
       <pubDate>Tue, 14 Apr 2015 06:00:25 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/migrating-or-backuprestore-boot-camp-partitions/</guid>
+      <guid>http://example.com/posts/migrating-or-backuprestore-boot-camp-partitions/</guid>
       <description>Update: I tried installing the app on OSX El Capitan, and there&amp;rsquo;s a big warning about OS incompatibility&amp;hellip;
  I found a (free!) way to migrate my boot camp partition from one hard drive to another. I used Paragon&amp;rsquo;s Boot Camp Backup (http://www.paragon-software.com/home/bootcamp-backup/) and:
  create a back up of my boot camp partition from the old hard drive, installed OSX and Boot Camp Backup on the new hard drive (with a new partition for Boot Camp), In order to enable the &amp;ldquo;restore&amp;rdquo; feature, I selected the newly created Boot Camp partition as the &amp;ldquo;source&amp;rdquo; and select the &amp;ldquo;destination&amp;rdquo; as the backup image created in the first step&amp;hellip; click on the &amp;ldquo;Restore&amp;rdquo; tab and then restore the image to the new partition!</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Using HDMI Audio on a MacBook Pro</title>
-      <link>https://ajosephau.github.io/posts/using-hdmi-audio-on-a-macbook-pro/</link>
+      <link>http://example.com/posts/using-hdmi-audio-on-a-macbook-pro/</link>
       <pubDate>Sat, 21 Dec 2013 01:29:47 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/using-hdmi-audio-on-a-macbook-pro/</guid>
+      <guid>http://example.com/posts/using-hdmi-audio-on-a-macbook-pro/</guid>
       <description>So I use Jaycar&amp;rsquo;s Mini DisplayPort to HDMI/DisplayPort/DVI converter (available at http://www.jaycar.com.au/productView.asp?ID=WQ7427) to connect my MacBook Pro to my TV. So getting the display to work is easy (set the TV to receive video from whichever HDMI port the laptop is connected to)&amp;hellip; but getting audio to go out of the TV instead of the MacBook Pro?
  Go to System Preferences. Click &amp;ldquo;Sound&amp;rdquo; Click &amp;ldquo;Output&amp;rdquo; And select the display.  And congratulations :-)!</description>
     </item>

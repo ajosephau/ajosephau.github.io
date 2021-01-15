@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Superoptimizer on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/superoptimizer/</link>
+    <link>http://example.com/tags/superoptimizer/</link>
     <description>Recent content in Superoptimizer on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/superoptimizer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2016 05:48:00 +0000</lastBuildDate><atom:link href="http://example.com/tags/superoptimizer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Generic Superoptimizer</title>
-      <link>https://ajosephau.github.io/posts/a-generic-superoptimizer/</link>
+      <link>http://example.com/posts/a-generic-superoptimizer/</link>
       <pubDate>Fri, 04 Mar 2016 05:48:00 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/a-generic-superoptimizer/</guid>
+      <guid>http://example.com/posts/a-generic-superoptimizer/</guid>
       <description>So I tried to publish this as a journal article, but got tired of the submission process. So here it is! Let me know if you find it interesting!
 Developing and evaluating a machine-independent, multi-objective superoptimizer  This article describes the design, development and usage of the generic, multi-objective superoptimizer. This superoptimizer generates optimal programs for any programming language that can be expressed by a context-free grammar for any objective such as finding the smallest, fastest or most energy efficient program.</description>
     </item>

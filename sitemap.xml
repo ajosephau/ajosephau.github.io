@@ -3,407 +3,402 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ajosephau.github.io/portfolio/</loc>
+    <loc>http://example.com/portfolio/</loc>
     <lastmod>2021-01-14T21:54:12+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/resume/</loc>
-    <lastmod>2021-01-14T21:54:12+11:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ajosephau.github.io/posts/a-generic-superoptimizer/</loc>
+    <loc>http://example.com/posts/a-generic-superoptimizer/</loc>
     <lastmod>2016-03-04T05:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/</loc>
+    <loc>http://example.com/</loc>
     <lastmod>2016-03-04T05:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/</loc>
+    <loc>http://example.com/posts/</loc>
     <lastmod>2016-03-04T05:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/superoptimizer/</loc>
+    <loc>http://example.com/tags/superoptimizer/</loc>
     <lastmod>2016-03-04T05:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/</loc>
+    <loc>http://example.com/tags/</loc>
     <lastmod>2016-03-04T05:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/advice-for-smart-running-girls-on-online-privacy/</loc>
+    <loc>http://example.com/posts/advice-for-smart-running-girls-on-online-privacy/</loc>
     <lastmod>2015-10-20T01:19:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/infosec/</loc>
+    <loc>http://example.com/tags/infosec/</loc>
     <lastmod>2015-10-20T01:19:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/web/</loc>
+    <loc>http://example.com/tags/web/</loc>
     <lastmod>2015-10-20T01:19:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/hack-something-first-a-lesson-in-input-validation/</loc>
+    <loc>http://example.com/posts/hack-something-first-a-lesson-in-input-validation/</loc>
     <lastmod>2015-10-19T04:55:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/programming/</loc>
+    <loc>http://example.com/tags/programming/</loc>
     <lastmod>2015-10-19T04:55:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/systems-administration/</loc>
+    <loc>http://example.com/tags/systems-administration/</loc>
     <lastmod>2015-10-19T04:55:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/migrating-or-backuprestore-boot-camp-partitions/</loc>
+    <loc>http://example.com/posts/migrating-or-backuprestore-boot-camp-partitions/</loc>
     <lastmod>2015-04-14T06:00:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/osx/</loc>
+    <loc>http://example.com/tags/osx/</loc>
     <lastmod>2015-04-14T06:00:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/echo-constants-in-batch-scripts-without-quotes/</loc>
+    <loc>http://example.com/posts/echo-constants-in-batch-scripts-without-quotes/</loc>
     <lastmod>2015-02-02T00:54:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/windows/</loc>
+    <loc>http://example.com/tags/windows/</loc>
     <lastmod>2015-02-02T00:54:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</loc>
+    <loc>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</loc>
     <lastmod>2015-01-01T06:56:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/lego-nxt/</loc>
+    <loc>http://example.com/tags/lego-nxt/</loc>
     <lastmod>2015-01-01T06:56:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/lejos/</loc>
+    <loc>http://example.com/tags/lejos/</loc>
     <lastmod>2015-01-01T06:56:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</loc>
+    <loc>http://example.com/posts/how-to-setup-freemarker-for-log4j/</loc>
     <lastmod>2014-12-26T03:42:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/freemarker/</loc>
+    <loc>http://example.com/tags/freemarker/</loc>
     <lastmod>2014-12-26T03:42:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/log4j/</loc>
+    <loc>http://example.com/tags/log4j/</loc>
     <lastmod>2014-12-26T03:42:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/monitoring-a-shell-script-with-jenkins-on-centos/</loc>
+    <loc>http://example.com/posts/monitoring-a-shell-script-with-jenkins-on-centos/</loc>
     <lastmod>2014-11-03T07:06:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/bushfire-connect/</loc>
+    <loc>http://example.com/tags/bushfire-connect/</loc>
     <lastmod>2014-10-30T06:51:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/deploying-your-own-copy-of-bushfire-connect/</loc>
+    <loc>http://example.com/posts/deploying-your-own-copy-of-bushfire-connect/</loc>
     <lastmod>2014-10-30T06:51:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</loc>
+    <loc>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</loc>
     <lastmod>2014-08-26T06:13:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/dsm/</loc>
+    <loc>http://example.com/tags/dsm/</loc>
     <lastmod>2014-07-11T02:19:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</loc>
+    <loc>http://example.com/posts/importing-multiple-intermediate-certificates-on-synology-dsm-5-0/</loc>
     <lastmod>2014-07-11T02:19:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</loc>
+    <loc>http://example.com/posts/adding-sort-of-cron-jobs-to-synology-dsm-5/</loc>
     <lastmod>2014-07-02T04:12:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/synology/</loc>
+    <loc>http://example.com/tags/synology/</loc>
     <lastmod>2014-07-02T04:12:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/drupal-7/</loc>
+    <loc>http://example.com/tags/drupal-7/</loc>
     <lastmod>2014-06-10T04:45:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/exporting-taxonomy-terms-in-drupal-7/</loc>
+    <loc>http://example.com/posts/exporting-taxonomy-terms-in-drupal-7/</loc>
     <lastmod>2014-06-10T04:45:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/adding-internode-email-accounts-to-airmail/</loc>
+    <loc>http://example.com/posts/adding-internode-email-accounts-to-airmail/</loc>
     <lastmod>2014-03-17T02:30:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</loc>
+    <loc>http://example.com/posts/enabling-dlnaupnp-services-in-the-synology-dsm-version-5/</loc>
     <lastmod>2014-03-13T10:42:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/converting-esri-shapefiles-to-csvs-using-qgis/</loc>
+    <loc>http://example.com/posts/converting-esri-shapefiles-to-csvs-using-qgis/</loc>
     <lastmod>2014-01-22T11:19:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/qgis/</loc>
+    <loc>http://example.com/tags/qgis/</loc>
     <lastmod>2014-01-22T11:19:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/ios/</loc>
+    <loc>http://example.com/tags/ios/</loc>
     <lastmod>2014-01-02T11:06:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</loc>
+    <loc>http://example.com/posts/stopping-iphoneipad-ios-messages-from-repeatedly-alerting-you-to-new-messages/</loc>
     <lastmod>2014-01-02T11:06:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/chrome/</loc>
+    <loc>http://example.com/tags/chrome/</loc>
     <lastmod>2013-12-31T09:49:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/enabling-google-plus-integration-into-chrome/</loc>
+    <loc>http://example.com/posts/enabling-google-plus-integration-into-chrome/</loc>
     <lastmod>2013-12-31T09:49:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/using-hdmi-audio-on-a-macbook-pro/</loc>
+    <loc>http://example.com/posts/using-hdmi-audio-on-a-macbook-pro/</loc>
     <lastmod>2013-12-21T01:29:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/a-html-template-for-drupal-module-reviews/</loc>
+    <loc>http://example.com/posts/a-html-template-for-drupal-module-reviews/</loc>
     <lastmod>2013-10-22T02:34:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/module-development/</loc>
+    <loc>http://example.com/tags/module-development/</loc>
     <lastmod>2013-10-22T02:34:24+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/accessing-drupal-sandbox-projects-via-the-web/</loc>
+    <loc>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</loc>
     <lastmod>2013-10-10T10:55:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</loc>
+    <loc>http://example.com/posts/cant-use-touch-screen-on-iphone-4s-with-ios-7/</loc>
     <lastmod>2013-10-07T20:38:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/iphone/</loc>
+    <loc>http://example.com/tags/iphone/</loc>
     <lastmod>2013-10-07T20:38:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/improving-ios-7-performance-on-iphone-4s/</loc>
+    <loc>http://example.com/posts/improving-ios-7-performance-on-iphone-4s/</loc>
     <lastmod>2013-09-25T06:32:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/problems-syncing-music-in-ios-7-0/</loc>
+    <loc>http://example.com/posts/problems-syncing-music-in-ios-7-0/</loc>
     <lastmod>2013-09-20T07:55:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</loc>
+    <loc>http://example.com/posts/a-quick-way-to-import-natural-earth-raster-images-to-geoserver/</loc>
     <lastmod>2013-08-24T12:02:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/geoserver/</loc>
+    <loc>http://example.com/tags/geoserver/</loc>
     <lastmod>2013-08-24T12:02:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/mysql/</loc>
+    <loc>http://example.com/tags/mysql/</loc>
     <lastmod>2013-08-19T11:26:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</loc>
+    <loc>http://example.com/posts/paging-queries-or-querying-large-amounts-of-data-from-a-mysql-database-in-java/</loc>
     <lastmod>2013-08-19T11:26:22+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/creating-mysql-views-in-phpmyadmin/</loc>
+    <loc>http://example.com/posts/creating-mysql-views-in-phpmyadmin/</loc>
     <lastmod>2013-08-19T03:08:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/comment_comment_docblock_missing-drupal-7-coder-module/</loc>
+    <loc>http://example.com/posts/comment_comment_docblock_missing-drupal-7-coder-module/</loc>
     <lastmod>2013-07-30T06:18:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/a-simple-way-to-create-arrays-for-drupal-testing/</loc>
+    <loc>http://example.com/posts/a-simple-way-to-create-arrays-for-drupal-testing/</loc>
     <lastmod>2013-07-30T00:08:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/restarting-apple-app-store-downloads/</loc>
+    <loc>http://example.com/posts/restarting-apple-app-store-downloads/</loc>
     <lastmod>2013-07-23T21:50:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</loc>
+    <loc>http://example.com/posts/adding-filtering-to-a-jtable/</loc>
     <lastmod>2013-07-03T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/java/</loc>
+    <loc>http://example.com/tags/java/</loc>
     <lastmod>2013-07-03T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/swing/</loc>
+    <loc>http://example.com/tags/swing/</loc>
     <lastmod>2013-07-03T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/ui/</loc>
+    <loc>http://example.com/tags/ui/</loc>
     <lastmod>2013-07-03T00:00:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</loc>
+    <loc>http://example.com/posts/interfacing-matlab-to-java-applications/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/matlab/</loc>
+    <loc>http://example.com/tags/matlab/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/good-java-tutorials-and-technologies/</loc>
+    <loc>http://example.com/posts/good-java-tutorials-and-technologies/</loc>
     <lastmod>2013-06-29T00:00:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/awt-graphics-alternating-graphics-colour/</loc>
+    <loc>http://example.com/posts/awt-graphics-alternating-graphics-colour/</loc>
     <lastmod>2013-06-26T00:00:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/awt/</loc>
+    <loc>http://example.com/tags/awt/</loc>
     <lastmod>2013-06-26T00:00:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/adding-a-configure-link-to-a-drupal-module/</loc>
+    <loc>http://example.com/posts/adding-a-configure-link-to-a-drupal-module/</loc>
     <lastmod>2013-06-25T01:22:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/awt-graphics-changing-line-thickness/</loc>
+    <loc>http://example.com/posts/awt-graphics-changing-line-thickness/</loc>
     <lastmod>2013-06-23T00:00:32+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/casting-integers-from-objects-and-other-primitives-too/</loc>
+    <loc>http://example.com/posts/casting-integers-from-objects-and-other-primitives-too/</loc>
     <lastmod>2013-06-21T00:00:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/readable-enumerations/</loc>
+    <loc>http://example.com/posts/readable-enumerations/</loc>
     <lastmod>2013-06-20T00:00:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/sorting-a-hashset/</loc>
+    <loc>http://example.com/posts/sorting-a-hashset/</loc>
     <lastmod>2013-06-18T00:00:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/css/</loc>
+    <loc>http://example.com/tags/css/</loc>
     <lastmod>2013-06-17T04:17:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/its-important-overriding-css-commands-with-the-important-keyword/</loc>
+    <loc>http://example.com/posts/its-important-overriding-css-commands-with-the-important-keyword/</loc>
     <lastmod>2013-06-17T04:17:36+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/using-ems-as-a-unit-of-measure/</loc>
+    <loc>http://example.com/posts/using-ems-as-a-unit-of-measure/</loc>
     <lastmod>2013-06-17T02:35:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/inserting-tags-in-head-section-of-a-drupal-page/</loc>
+    <loc>http://example.com/posts/inserting-tags-in-head-section-of-a-drupal-page/</loc>
     <lastmod>2013-06-16T13:25:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</loc>
+    <loc>http://example.com/posts/adding-sorting-to-a-jtable/</loc>
     <lastmod>2013-06-16T02:00:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/home/</loc>
+    <loc>http://example.com/posts/home/</loc>
     <lastmod>2013-06-13T10:59:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/tags/menu/</loc>
+    <loc>http://example.com/tags/menu/</loc>
     <lastmod>2013-06-13T10:59:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/posts/including-a-css-file-in-another-file/</loc>
+    <loc>http://example.com/posts/including-a-css-file-in-another-file/</loc>
     <lastmod>2013-06-12T23:06:38+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/about/</loc>
+    <loc>http://example.com/about/</loc>
     <lastmod>2013-06-11T10:01:02+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ajosephau.github.io/categories/</loc>
+    <loc>http://example.com/categories/</loc>
   </url>
   
 </urlset>

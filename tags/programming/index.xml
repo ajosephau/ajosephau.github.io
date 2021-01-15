@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/programming/</link>
+    <link>http://example.com/tags/programming/</link>
     <description>Recent content in Programming on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 19 Oct 2015 04:55:28 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Oct 2015 04:55:28 +0000</lastBuildDate><atom:link href="http://example.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hack something first: a lesson in input validation</title>
-      <link>https://ajosephau.github.io/posts/hack-something-first-a-lesson-in-input-validation/</link>
+      <link>http://example.com/posts/hack-something-first-a-lesson-in-input-validation/</link>
       <pubDate>Mon, 19 Oct 2015 04:55:28 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/hack-something-first-a-lesson-in-input-validation/</guid>
+      <guid>http://example.com/posts/hack-something-first-a-lesson-in-input-validation/</guid>
       <description>I wanted to write up a lesson I learnt from a certain app (won&amp;rsquo;t mention which one here, even though the vulnerability was reported and patched rather quickly!) that offered in-app currency if you sent your friends an SMS from your phone&amp;rsquo;s contacts to invite them to the service.
 I found that if you gave it a fake number, the app would give you the free credits, without checking if it had a 20 digit number!</description>
     </item>
     
     <item>
       <title>Installing LeJOS for Mindstorms NXT on Windows 8</title>
-      <link>https://ajosephau.github.io/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</link>
+      <link>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</link>
       <pubDate>Thu, 01 Jan 2015 06:56:47 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</guid>
+      <guid>http://example.com/posts/installing-lejos-for-mindstorms-nxt-on-windows-8/</guid>
       <description>So I had to deviate a little from the installation instructions to get LeJOS working on Windows 8, especially on a 64 bit operating system:
  Install a 32-bit version (ie x86) of Java JDK from the Oracle website:  http://www.oracle.com/technetwork/java/javase/downloads/index.html   Install the RobotC NXT drivers from the RobotC site, more than likely the 64bit version:  http://www.robotc.net/download/lego/   Install the latest LeJOS .exe version of the setup program from Sourceforge and the JDK and the drivers should be detected automatically!</description>
     </item>
     
     <item>
       <title>A basic setup for Log4j when using Freemarker</title>
-      <link>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</link>
+      <link>http://example.com/posts/how-to-setup-freemarker-for-log4j/</link>
       <pubDate>Fri, 26 Dec 2014 03:42:16 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</guid>
+      <guid>http://example.com/posts/how-to-setup-freemarker-for-log4j/</guid>
       <description>So I&amp;rsquo;m using Log4j in a project I&amp;rsquo;m working on, and I kept getting warnings from log4j when starting to use Freemarker&amp;hellip;
-log4j:WARN No appenders could be found for logger (freemarker.cache). log4j:WARN Please initialize the log4j system properly. log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info. ```In order to resolve these issues, I had to import the following classes:``` import freemarker.log.Logger; import org.apache.log4j.BasicConfigurator; ```...And run the following commands:``` Logger.selectLoggerLibrary(Logger.LIBRARY\_LOG4J); BasicConfigurator.configure(); ```Happy logging and templating!</description>
+log4j:WARN No appenders could be found for logger (freemarker.cache).log4j:WARN Please initialize the log4j system properly.log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.```In order to resolve these issues, I had to import the following classes:```import freemarker.log.Logger;import org.apache.log4j.BasicConfigurator;```...And run the following commands:```Logger.selectLoggerLibrary(Logger.LIBRARY\_LOG4J);BasicConfigurator.configure();```Happy logging and templating!</description>
     </item>
     
     <item>
       <title>Installing cmdbuild on Ubuntu 14.04 LTS</title>
-      <link>https://ajosephau.github.io/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</link>
+      <link>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</link>
       <pubDate>Tue, 26 Aug 2014 06:13:39 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</guid>
+      <guid>http://example.com/posts/installing-cmdbuild-on-ubuntu-14-04-lts/</guid>
       <description>So the instructions on the Ubuntu wiki are good, but I found I had to make some slight changes in order to get it to work on the latest (at this time!) Ubuntu LTS version (14.04). I&amp;rsquo;m not too sure how secure the server is though&amp;hellip; comments anyone? Here are the instructions I followed to get it to work
  Install ubuntu on your platform (I&amp;rsquo;m using VirtualBox). Start up the terminal app.</description>
     </item>
     
     <item>
       <title>Converting ESRI Shapefiles to CSVs using QGIS</title>
-      <link>https://ajosephau.github.io/posts/converting-esri-shapefiles-to-csvs-using-qgis/</link>
+      <link>http://example.com/posts/converting-esri-shapefiles-to-csvs-using-qgis/</link>
       <pubDate>Wed, 22 Jan 2014 11:19:13 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/converting-esri-shapefiles-to-csvs-using-qgis/</guid>
+      <guid>http://example.com/posts/converting-esri-shapefiles-to-csvs-using-qgis/</guid>
       <description>So I&amp;rsquo;ve been trying to export the data from the AMSA (the digital data from https://www.operations.amsa.gov.au/Spatial/DataServices/DigitalData which contains about 1 million data points per month). And I found a way to export the shapefile&amp;rsquo;s data to a CSV file :D!
  Install QGIS from Kyngchaos for Mac users!! http://www.kyngchaos.com/software/qgis Drag the &amp;ldquo;.shp&amp;rdquo; and drop it into the &amp;ldquo;Layers&amp;rdquo; panel on the left hand panel Click on the layer and then on the menu item, and select Layers &amp;ndash;&amp;gt; Save As Select &amp;ldquo;Comma Separated Values&amp;rdquo;, and select a file to save to.</description>
     </item>
     
     <item>
       <title>Accessing Drupal sandbox projects via the web</title>
-      <link>https://ajosephau.github.io/posts/accessing-drupal-sandbox-projects-via-the-web/</link>
+      <link>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</link>
       <pubDate>Thu, 10 Oct 2013 10:55:13 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/accessing-drupal-sandbox-projects-via-the-web/</guid>
+      <guid>http://example.com/posts/accessing-drupal-sandbox-projects-via-the-web/</guid>
       <description>EDIT: OK so there&amp;rsquo;s an even easier way to do this&amp;hellip; Click on &amp;ldquo;Repository viewer&amp;rdquo; on the right hand menu under the &amp;ldquo;Development&amp;rdquo; heading
 OK, so for some reason when I want to view Drupal modules I can&amp;rsquo;t access them via the usual &amp;ldquo;git clone (git_url_here)&amp;rdquo; command.
 So instead the source code can be accessed by going to drupalcode.org &amp;hellip; but how? Good question :D!

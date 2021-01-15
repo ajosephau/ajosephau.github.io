@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/windows/</link>
+    <link>http://example.com/tags/windows/</link>
     <description>Recent content in Windows on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 02 Feb 2015 00:54:06 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2015 00:54:06 +0000</lastBuildDate><atom:link href="http://example.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Echo constants in batch scripts without quotes</title>
-      <link>https://ajosephau.github.io/posts/echo-constants-in-batch-scripts-without-quotes/</link>
+      <link>http://example.com/posts/echo-constants-in-batch-scripts-without-quotes/</link>
       <pubDate>Mon, 02 Feb 2015 00:54:06 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/echo-constants-in-batch-scripts-without-quotes/</guid>
+      <guid>http://example.com/posts/echo-constants-in-batch-scripts-without-quotes/</guid>
       <description>Somewhat based on this Stack Overflow post, I wanted to simplify the code to echo a constrant string without the quotation marks to the console in a Windows batch script., Here&amp;rsquo;s the script to output the obligatory, &amp;ldquo;Hello world!&amp;rdquo; text
-@echo OFF SET variable=&amp;quot;Hello World!&amp;quot; ECHO %variable:&amp;quot;=% ```With the following output``` Hello World!  Comments:  Seb - Oct 1, 2018Does not work for me .. with &amp;lt; in the variable value !</description>
+@echo OFFSET variable=&amp;quot;Hello World!&amp;quot;ECHO %variable:&amp;quot;=%```With the following output```Hello World! Comments:  Seb - Oct 1, 2018Does not work for me .. with &amp;lt; in the variable value !</description>
     </item>
     
   </channel>

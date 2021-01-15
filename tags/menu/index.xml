@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Menu on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/menu/</link>
+    <link>http://example.com/tags/menu/</link>
     <description>Recent content in Menu on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 13 Jun 2013 10:59:09 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/menu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jun 2013 10:59:09 +0000</lastBuildDate><atom:link href="http://example.com/tags/menu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home</title>
-      <link>https://ajosephau.github.io/posts/home/</link>
+      <link>http://example.com/posts/home/</link>
       <pubDate>Thu, 13 Jun 2013 10:59:09 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/home/</guid>
+      <guid>http://example.com/posts/home/</guid>
       <description></description>
     </item>
     

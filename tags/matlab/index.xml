@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matlab on Anthony I. Joseph</title>
-    <link>https://ajosephau.github.io/tags/matlab/</link>
+    <link>http://example.com/tags/matlab/</link>
     <description>Recent content in Matlab on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="http://example.com/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interfacing Matlab to Java applications</title>
-      <link>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</link>
+      <link>http://example.com/posts/interfacing-matlab-to-java-applications/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://ajosephau.github.io/posts/interfacing-matlab-to-java-applications/</guid>
+      <guid>http://example.com/posts/interfacing-matlab-to-java-applications/</guid>
       <description>For existing projects:
  Open Matlab. Navigate to the directory holding the Matlab project, and open the project file (going by the extension &amp;ldquo;.prj&amp;rdquo;). The &amp;ldquo;Deployment Tool&amp;rdquo; (which can be opened by typing &amp;ldquo;deploytool&amp;rdquo; in the prompt) will be opened. If you are updating files, drag the Matlab files off the &amp;ldquo;Classes&amp;rdquo; list and drag the Matlab files onto the &amp;ldquo;Classes&amp;rdquo; list. Click on :  &amp;ldquo;Build&amp;rdquo; icon to make a &amp;ldquo;Jar&amp;rdquo; file of the compiled Matlab files or &amp;ldquo;Package&amp;rdquo; icon to make a self extracting executable of the Jar file, Javadoc files and a readme file.</description>
     </item>
