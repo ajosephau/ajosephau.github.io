@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Swing on Anthony I. Joseph</title>
-    <link>http://example.com/tags/swing/</link>
+    <link>https://ajosephau.github.io/tags/swing/</link>
     <description>Recent content in Swing on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 03 Jul 2013 00:00:56 +0000</lastBuildDate><atom:link href="http://example.com/tags/swing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2013 00:00:56 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/swing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding filtering to a JTable</title>
-      <link>http://example.com/posts/adding-filtering-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</link>
       <pubDate>Wed, 03 Jul 2013 00:00:56 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-filtering-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-filtering-to-a-jtable/</guid>
       <description>To filter out rows in a JTable, you will need to add a RowFilter (javax.swing.RowFilter). This row filter takes a table model and an object that correspond to an entry in the model.
 RowFilter&amp;lt;object,object&amp;gt; startsWithAFilter = new RowFilter&amp;lt;object,object&amp;gt;() {public boolean include(Entry entry) {for (int i = entry.getValueCount() - 1; i &amp;gt;= 0; i--) {if (entry.getStringValue(i).startsWith(&amp;quot;a&amp;quot;)) {// The value starts with &amp;quot;a&amp;quot;, include itreturn true;}}// None of the columns start with &amp;quot;a&amp;quot;// return false so that this// entry is not shownreturn false;}};```There are a few types of RowFilters available, like a generic “include” filter (so you specify which rows are to be included), a number/date/regex filter (which are specific RowFilter types) and an AND/OR/NOT filter to combine different row filters together.</description>
     </item>
     
     <item>
       <title>Adding sorting to a JTable</title>
-      <link>http://example.com/posts/adding-sorting-to-a-jtable/</link>
+      <link>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</link>
       <pubDate>Sun, 16 Jun 2013 02:00:39 +0000</pubDate>
       
-      <guid>http://example.com/posts/adding-sorting-to-a-jtable/</guid>
+      <guid>https://ajosephau.github.io/posts/adding-sorting-to-a-jtable/</guid>
       <description>To add buttons to a JTable’s headers so that when you click on the headers the JTable is sorted in those particular fields:
 JTable table = new JTable();table.setAutoCreateRowSorter(true);```This is also helpful as the underlying TableModel is not altered. But to use selected cells one needs to use the following commands:```//for column indicestable.convertColumnIndexToModel(viewColumnIndex);table.convertColumnIndexToView(modelColumnIndex);//for row indicestable.convertRowIndexToModel(viewRowIndex);table.convertRowIndexToView(modelRowIndex);Note that one can also extend off “DefaultTableModel” and add other helper functions to the table model such as row counts, column counts etc.</description>
     </item>

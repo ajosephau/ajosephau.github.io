@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Freemarker on Anthony I. Joseph</title>
-    <link>http://example.com/tags/freemarker/</link>
+    <link>https://ajosephau.github.io/tags/freemarker/</link>
     <description>Recent content in Freemarker on Anthony I. Joseph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 26 Dec 2014 03:42:16 +0000</lastBuildDate><atom:link href="http://example.com/tags/freemarker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Dec 2014 03:42:16 +0000</lastBuildDate><atom:link href="https://ajosephau.github.io/tags/freemarker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A basic setup for Log4j when using Freemarker</title>
-      <link>http://example.com/posts/how-to-setup-freemarker-for-log4j/</link>
+      <link>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</link>
       <pubDate>Fri, 26 Dec 2014 03:42:16 +0000</pubDate>
       
-      <guid>http://example.com/posts/how-to-setup-freemarker-for-log4j/</guid>
+      <guid>https://ajosephau.github.io/posts/how-to-setup-freemarker-for-log4j/</guid>
       <description>So I&amp;rsquo;m using Log4j in a project I&amp;rsquo;m working on, and I kept getting warnings from log4j when starting to use Freemarker&amp;hellip;
 log4j:WARN No appenders could be found for logger (freemarker.cache).log4j:WARN Please initialize the log4j system properly.log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.```In order to resolve these issues, I had to import the following classes:```import freemarker.log.Logger;import org.apache.log4j.BasicConfigurator;```...And run the following commands:```Logger.selectLoggerLibrary(Logger.LIBRARY\_LOG4J);BasicConfigurator.configure();```Happy logging and templating!</description>
     </item>
