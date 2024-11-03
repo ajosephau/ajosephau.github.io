@@ -159,6 +159,8 @@ social:
     url: "https://twitter.com/ajosephau"
   - icon: "mastodon"
     url: "https://indieweb.social/@ajosephau"
+  - icon: "stack-overflow"
+    url: "https://stackoverflow.com/users/3427641/anthony-joseph"
 ############
 # 404 page #
 ############

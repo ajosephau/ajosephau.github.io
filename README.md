@@ -74,3 +74,10 @@ The theme contains documentation in the form of
 - Cookies consent
 - Protection from email harvesting
 - Sitemap
+
+Go to services tab.
+Open container
+Right click on container and "Create terminal"
+Run `ruby bin/generate_tags.rb`
+Run `ruby bin/generate_categories.rb`
+Run `ruby bin/new_post.rb` if need new post

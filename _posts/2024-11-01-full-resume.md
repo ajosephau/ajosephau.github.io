@@ -1,0 +1,166 @@
+---
+layout: post
+section-type: post
+has-comments: true
+title: Resume
+category: about
+tags: ["about-me"]
+---
+
+# Work experience
+## Onlife
+**Sep 2024 - Present**
+
+**Senior Software Founder**
+
+I am a backend engineer in a frontend engineering team ensuring the fronted engineering team have the APIs they require for their tasks.
+
+I also responded to customer incident reports and liaised with engineering and operations leadership and third party vendors.
+
+## Bike Party
+**Jul 2021 - Present**
+
+**Technical Founder**
+
+I am a co-founder, director and full stack software engineer of a technology start-up company helping cyclists find other cyclists for group commuting. 
+
+Bike Party is powered by a geospatially-enabled Django using a PostgreSQL database and Javascript, HTML and CSS with Mapbox geospatial libraries.
+
+## The Yield Technology Solutions
+**Oct 2022 - Jun 2024**
+
+**Senior Software Engineer**
+
+I led a squad of offshore software developers creating an internal data administration tool: I led and developed a fastAPI backend and react frontend. I have led and liaised with product, customer success and other C-level employees on projects including migrating legacy python and .net software to work with a new company database and integrating new agricultural pest and disease models into an existing code base and mobile app.
+
+## FetchTV
+**Mar 2021 - Oct 2022**
+
+**Middleware Software Engineer**
+
+I developed new features and fixed existing bugs in FetchTV’s middleware platform which managed FetchTV’s digital catalogue, billing and other administrative functions. I performed technical maintenance on FetchTV’s server infrastructure and responded to incidents as a member of the 24x7 operations on-call roster. I also developed quality assurance processes such as enforcing coding standards, mentoring on system maintenance and unit testing.
+
+## Assignar
+**May 2020 – Feb 2021**
+
+**Backend software engineer**
+
+I performed development tasks to support a strategic initiative to consolidate several REST and graphQL APIs into a single Django-based platform through mentorship on key Django development principles including testing and design patterns.
+
+## Prezzee
+**Mar 2017 – Jan 2020**
+
+**Full stack software engineer**
+
+I performed maintenance, operations tasks and software development on the main Prezzee web site companion Prezzee Business and rewards site.
+
+## Coder Factory Academy
+**Feb 2017 – Jun 2017**
+
+**Teaching assistant**
+
+I have taught multiple cohorts of the Coder Factory Academy Web App Builder course, including the Walkleys Coding Scholarship cohort and the Coding for Beginners course as a lecturer and tutor.
+
+## My House Geek
+**Jan 2016 – Present**
+**Managing director, chief technology officer and full stack software engineer**
+
+Developing services through integrating government and open source data with a nginx/Django/PostgreSQL stack & HTML/CSS/Javascript/jQuery/Leaflet frontend. Conducting scientific research and patent authorship into new service capabilities. Managing corporate and production IT services, ensuring continuous availability without compromising service confidentiality or integrity. Fostering and shaping organisational culture including mentoring fellow board members and executives.
+
+## Defence Science and Technology Group, Department of Defence
+**Aug 2010 – Jan 2016**
+**Software engineer and data scientist**
+
+Pioneered open-source software development in DST Group, leading a multidisciplinary team including contractor management. Developing and managing software development, documentation and configuration management using Java and Python. Managing the software aspects of the development of a waterside security system.
+
+## Wolfram Research Inc., Special Projects Division
+**Jan 2009 – Feb 2009**
+**Undergraduate Software Engineer**
+
+Developed, tested and integrated modules to parse and generate responses to user requests relating to tree structures and data representation in WolframAlpha. 
+- http://www.wolframalpha.com/input/?i=5-ary+tree 
+- http://www.wolframalpha.com/input/?i=1.23+in+IEEE+single+precision+number
+
+## Raytheon Australia: Air Warfare Destroyer Project
+**Aug 2007 – Aug 2008**
+**Undergraduate Systems Engineer**
+
+Worked in a Combat System requirements and design team.
+
+## Thales Australia, FFG Upgrade
+**Aug 2005 – Feb 2007**
+**Undergraduate Systems Engineer and Data Scientist**
+
+Conducted missile performance modelling, simulation and statistical analysis for Combat System design compliance against customer requirements. Supported integration of multiple combat system components through liaising with design authorities and developers.
+
+# Education
+## Postgraduate
+**Masters of Business & Technology**
+
+2013-2015 University of Technology, Sydney Grade Point Average: 3.62/4. Weighted Average Mean (Estimated): 83/100
+
+## Undergraduate
+**Bachelors of Engineering (Software Engineering) Diploma of Engineering Practice with First Class Honours Bachelors of Science (Mathematics)**
+
+2004-2009 University of Technology, Sydney Grade Point Average: 3.90/4. Weighted Average Mean (Estimated): 90.43/100
+
+# SKills
+## Programming languages
+
+- Python (incl. Django) 
+- Java 
+- MySQL
+- PostgreSQL
+- PHP (incl. Drupal)
+- Javascript/jQuery/Leaflet
+- Shell scripting/Ansible
+- Mathematica/MATLAB
+- React
+- Flutter
+
+## Engineering Skills
+
+- Scientific research 
+- Machine learning 
+- Data analysis 
+- Geospatial analysis 
+- Technology leadership 
+- Information/operations security 
+- AWS/GCP/Azure/linux server administration 
+- Systems architecture
+
+# Volunteering
+## Djangonauts Space
+
+https://djangonaut.space/comms/session-3-team/
+
+I am a djangonaut in the 3rd session of Djangonauts Space: making contributions to Django core.
+
+## Site Banner
+
+https://drupal.org/project/site_banner 
+
+A Drupal 7/8 module with over 3,000 downloads and over 200 active users The module displays site-wide text information such as site security classification. Integration with third-party modules to contextually alter banner colour and text.
+
+## DjangoGirls
+
+I mentored women in the Django web application framework and helped connect organisers with sponsors.
+
+## Bushfire Connect
+
+I customised Ushahidi to provide civilians in Victoria’s bushfireprone areas timely advice about bushfires. I administrated and supported key IT services. I provided first- and second-level technical support.
+
+# Awards and accomplishments
+**Alan Chappel Engineering Innovation prize for Capstone Project University of Technology, Sydney**
+2006-2010, 2014
+
+**Faculty of Engineering Dean’s Award for Outstanding Academic Performance University of Technology, Sydney**
+2006-2009
+
+**Faculty of Engineering Dean’s List University of Technology, Sydney**
+2007
+
+**Wolfram New Kind of Science Summer School University of Vermont, Burlington**
+2004
+
+**Faculty of Engineering Undergraduate Scholarship for Software Engineering University of Technology, Sydney**
