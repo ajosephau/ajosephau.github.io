@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-has-comments: true
+has-comments: False
 title: Portfolio
 category: about
 tags: [ "about-me" ]
