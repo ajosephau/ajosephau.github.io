@@ -172,8 +172,8 @@ err-404-img: "/img/404.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
+  Career: "timeline"
   Blog: "latest-post"
-  Career Summary: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
