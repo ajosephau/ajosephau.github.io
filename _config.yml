@@ -34,6 +34,8 @@ lines: # You can add HTML Tags in the Text
   - text: "A ship is always safe at the shore, but that is not what it is built for. (Albert Einstein)"
   - text: "You are enough just as you are (Meghan Markle)"
   - text: "We can’t be brave without fear (Muhammad Ali)"
+  - text: "You cannot shake hands with a clenched fist (Indira Gandhi)"
+  - text: "A wise man can learn more from a foolish question than a fool can learn from a wise answer (Bruce Lee)"
 me-img: "/img/pfp.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
